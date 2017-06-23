@@ -1,0 +1,28 @@
+#masthead {
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	z-index: 1;
+	transition: background-color 300ms ease-in-out;
+
+	&.darkHeader {
+		background-color: #2B2B2B;
+	}
+	
+	.row {
+		position: relative;
+		margin: 0;
+	}
+
+	.site-branding {
+		float: left;
+		@include rem(padding, 20px 0);
+
+
+		img {
+			display: block;
+			width: 290px;
+		}
+	}
+}
+
