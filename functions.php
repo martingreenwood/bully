@@ -136,9 +136,9 @@ add_action( 'wp_enqueue_scripts', 'bully_scripts' );
 function new_nav_menu_items($items, $args) {
 	if ($args->theme_location == 'menu-1') {
 		if (is_user_logged_in()) {
-			$loginlink .= '<li><a href="'. home_url( '/profile/' ) .'">'. __("My Account") .'</a></li>';
+			$loginlink = '<li><a href="'. home_url( '/profile/' ) .'">'. __("My Account") .'</a></li>';
 		} else {
-			$loginlink .= '<li><a href="'. wp_login_url(get_permalink()) .'">'. __("Login") .'</a></li>';
+			$loginlink = '<li><a href="'. wp_login_url(get_permalink()) .'">'. __("Login") .'</a></li>';
 		}
 		$items = $loginlink . $items;
 	}
