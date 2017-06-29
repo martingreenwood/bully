@@ -34,6 +34,7 @@
 			position: absolute;
 			right: 0;
 			bottom: 0;
+			padding-bottom: 19px;
 
 			.name {
 				float: left;
@@ -92,7 +93,6 @@
 		}
 
 		/*----- Tab Links -----*/
-		/* Clearfix */
 		.tab-links {
 			margin: 0;
 			border-bottom: 2px solid $brand-primary;
@@ -106,31 +106,34 @@
 			}
 
 			li {
-				margin:0px 5px;
-				float:left;
-				list-style:none;
+				margin: 0px 10px 0 0;
+				float: left;
+				list-style: none;
+
+				&.right {
+					float: right;
+					margin-right: 0;
+				}
 			
 				a {
-					padding:9px 15px;
-					display:inline-block;
-					border-radius:3px 3px 0px 0px;
-					background:#7FB5DA;
-					font-size:16px;
-					font-weight:600;
-					color:#4c4c4c;
-					transition:all linear 0.15s;
+					padding: 9px 15px;
+					display: inline-block;
+					font-weight: 600;
+					background-color: #f9f9f9;
+					transition: all linear 0.15s;
 
 					&:hover {
-						background:#a7cce5;
-						text-decoration:none;
+						background: $brand-primary;
+						color: white;
+						text-decoration: none;
 					}
 				}
 
 				&.active {
-					
+
 					a, a:hover {
-						background:#fff; 
-						color:#4c4c4c; 
+						background: $brand-primary; 
+						color: white; 
 					}
 				}
 			}
@@ -155,7 +158,7 @@
 						}
 
 						dl {
-							width: 31.56%;
+							width: 31.4%;
 							margin-right: 20px;
 
 							&:last-of-type {
@@ -163,17 +166,18 @@
 							}
 
 							dd {
-								width: 20%;
+								width: 30%;
 								border-bottom: 1px solid $brand-primary;
 								line-height: 2;
 								padding: 10px 0;
 								font-size: 16px;
 								height: 50px;
 								font-weight: 600;
+								text-align: right;
 							}
 							
 							dt {
-								width: 80%;
+								width: 70%;
 								border-bottom: 1px solid $brand-primary;
 								padding: 10px 0;
 								font-size: 16px;
@@ -283,7 +287,7 @@
 				}
 
 				dl {
-					margin: 0;
+					margin: 20px 0 0 0;
 					float: left;
 					width: 100%;
 
@@ -452,15 +456,33 @@
 	}
 }
 
-
 #groups {
 
 	h1 {
-		margin-bottom: 20px;
 		line-height: 1;
 		display: block;
 		color: black;
 		text-transform: uppercase;
 		font-size: 26px;
+		margin-top: 0;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	ul {
+		margin-bottom: 0;
+	}
+
+	.group-posts {
+		border-top: 2px solid $brand-primary;
+		padding-top: 20px;
+
+		.group-post {
+			border-bottom: 2px solid $brand-primary;
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+		}
 	}
 }

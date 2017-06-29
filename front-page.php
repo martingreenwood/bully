@@ -5,6 +5,10 @@
  * @package bully
  */
 
+if (is_user_logged_in()):
+	header("Location: " . home_url( '/profile/' ) );
+endif;
+
 get_header(); ?>
 
 	<section id="topimage">
@@ -16,7 +20,7 @@ get_header(); ?>
 						<h3>Are You A</h3>
 						<h3>Competitor</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						<a href="<?php echo home_url( '/register' ); ?>">Sign Up Today</a>
+						<a href="<?php echo home_url( '/programmes' ); ?>">Sign Up Today</a>
 					</div>
 				</div>
 			</div></div>

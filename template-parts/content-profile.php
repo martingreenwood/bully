@@ -41,9 +41,10 @@ $userData = get_userdata( $userID );
 		<ul class="tab-links">
 			<li class="active"><a href="<?php echo home_url( '/profile' ); ?>">My Profile</a></li>
 			<li><a href="<?php echo home_url( '/recent' ); ?>">WOD Diary</a></li>
-			<li><a href="<?php echo home_url( '/groups' ); ?>">Groups</a></li>
-			<li><a href="<?php echo home_url( '/messages' ); ?>">Messages</a></li>
+			<li><a href="<?php echo home_url( '/programme' ); ?>">My Programme</a></li>
+			<!-- <li><a href="<?php echo home_url( '/messages' ); ?>">Messages</a></li> -->
 			<li><a href="<?php echo home_url( '/settings' ); ?>">Settings</a></li>
+			<li class="right"><a href="<?php echo home_url( '/?a=logout' ); ?>">Logout</a></li>
 		</ul>
 
 		<div class="tab-content row">

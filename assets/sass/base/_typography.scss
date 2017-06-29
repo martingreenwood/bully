@@ -1,3 +1,78 @@
+@font-face {
+  font-family: 'Neutraface-Bold';
+  src: url('assets/fonts/Neutra2Display-Bold.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Bold.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Bold.svg#6ddcb162e8cc571575a33bf89db47848') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Neutraface-Inline';
+  src: url('assets/fonts/Neutra2Display-Inline.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Inline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Inline.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Inline.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Inline.svg#6354ff4058cdddf33386406b93e62278') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Neutraface-Light';
+  src: url('assets/fonts/Neutra2Display-Light.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Light.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Light.svg#d20946f9d38d51645db8bde272b58bcd') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Neutraface-Medium';
+  src: url('assets/fonts/Neutra2Display-Medium.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Medium.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Medium.svg#fe34e88c41ca2ea5940f1b1f88f22a2f') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Neutraface-Thin';
+  src: url('assets/fonts/Neutra2Display-Thin.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Thin.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Thin.svg#f3aa45671718716ea4a7a37cd833bc08') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Neutraface-Titling';
+  src: url('assets/fonts/Neutra2Display-Titling.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Neutra2Display-Titling.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Neutra2Display-Titling.woff') format('woff'), /* Modern Browsers */
+       url('assets/fonts/Neutra2Display-Titling.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Neutra2Display-Titling.svg#1d4650af151422a344dfe3cf27fdaeb2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+
+
 body {
   color: $base-font-color;
   font-family: $base-font-family;

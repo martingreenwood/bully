@@ -24,7 +24,7 @@
 
 		<div class="groups">
 			<h2>OUR COMPETITOR PROGRAMMES</h2>
-			<a class="more" href="<?php echo home_url( '/our-groups' ); ?>">View All PROGRAMMES</a>
+			<a class="more" href="<?php echo home_url( '/programmes' ); ?>">View All PROGRAMMES</a>
 			<ul>
 			<?php
 			$args = array(
@@ -53,9 +53,11 @@
 	</div>
 
 	<aside class="span4">
+		<?php if (is_user_logged_in()): ?>
+			<a class="myacc" href="<?php echo home_url( '/programmes' ); ?>">Go to My Account</a>
+		<?php else: ?>
 		<?php wp_login_form( ); ?>
-		<p>Or</p>
-		<?php echo do_action( 'wordpress_social_login' ); ?> 
+		<?php endif; ?>
 	</aside>
 
 

@@ -16,11 +16,18 @@
 		background: $dark-gray;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		position: relative;
 
-		.menu-footer-container {
+		.row {
+			position: relative;
+		}
+
+		ul {
+			float: right;
 
 			li {
 				margin-right: 20px;
+				margin-left: 0;
 
 				&:last-of-type {
 					margin-right: 0;

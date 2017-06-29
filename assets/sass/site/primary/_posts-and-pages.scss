@@ -110,6 +110,15 @@
 		aside {
 			padding: 20px;
 			background: $brand-primary;
+
+			a.myacc {
+				display: block;
+				width: 100%;
+				text-align: center;
+				color: white;
+				font-size: 23px;
+				text-transform: uppercase;
+			}
 		}
 	}
 
@@ -171,7 +180,7 @@
 ## Our Groups
 --------------------------------------------------------------*/
 
-.our-groups {
+.programmes {
 
 	.signup {
 		background: #333;
@@ -235,13 +244,25 @@
 					}
 
 					h3 {
-						font-size: 18px;
+						font-size: 20px;
 						text-transform: uppercase;
 						font-weight: 200;
 						margin: 20px 0 0 0;
 						color: $brand-primary;
+						font-weight: 600;
 					}
 
+					.price {
+						background: #e5bc19;
+						text-align: center;
+
+						h3 {
+							color: white;
+							font-weight: 700;
+							padding: 5px;
+							font-size: 25px;
+						}
+					}
 				}
 
 				.copy {
@@ -311,11 +332,39 @@
 }
 
 /*--------------------------------------------------------------
-## Profile / 
+## wpmem_reg 
 --------------------------------------------------------------*/
+
+#wpmem_reg {
+
+	input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea,
+	input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file'])
+	{
+		border-color: #ccc;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	button, input[type="button"], input[type="reset"], input[type="submit"] {
+		width: 100%;
+		border: 0;
+		background: #333;
+		color: white;
+		text-transform: uppercase;
+		border-radius: 0;
+		box-shadow: none;
+		outline: 0;
+	}
+
+}
+
+/*--------------------------------------------------------------
+## Profile & More 
+--------------------------------------------------------------*/
+
 .profile,
 .recent, 
-.groups,
+.programme,
 .messages,
 .settings
 {

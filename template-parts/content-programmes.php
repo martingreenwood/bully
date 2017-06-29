@@ -32,7 +32,13 @@
 					<div class="icon">
 						<?php $icon = get_field( 'group_icon' ); ?>
 						<img src="<?php echo $icon['url']; ?>">
-						<h3><?php the_title(); ?></h3>
+						<h3><?php the_title(); ?><br>
+						£<?php the_field( 'price' ); ?> PCM</h3>
+						<?php if (get_field( 'purchase_link' )): ?>
+						<div class="price">
+							<h3><a style="color: white" href="<?php the_field( 'purchase_link' ); ?>">Sign Up</a></h3>
+						</div>
+						<?php endif; ?>
 					</div>
 					<div class="copy">
 						<?php the_content(); ?>
@@ -47,7 +53,7 @@
 			<div class="clear"></div>
 		</div>
 
-		<a class="signup" href="<?php echo home_url( '/signup' ); ?>">INTERESTED? SIGN UP TODAY!</a>
+		<!-- <a class="signup" href="<?php echo home_url( '/our-programmes' ); ?>">INTERESTED? SIGN UP TODAY!</a> -->
 
 		<?php
 			the_content();

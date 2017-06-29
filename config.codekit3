@@ -21,6 +21,174 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Neutra2Display-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Inline.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Inline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Inline.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Inline.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Light.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Thin.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Thin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Thin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Titling.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Titling.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Titling.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Neutra2Display-Titling.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.woff",
+		"oF": 0
+		},
 	"\/assets\/images\/badge.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2751,12 +2919,6 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
-	"\/page-groups.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-groups.php",
-		"oF": 0
-		},
 	"\/page-messages.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2767,6 +2929,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-profile.php",
+		"oF": 0
+		},
+	"\/page-programme.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-programme.php",
 		"oF": 0
 		},
 	"\/page-recent.php": {
@@ -2872,12 +3040,6 @@
 		"oAP": "\/template-parts\/content-contact.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-groups.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/template-parts\/content-groups.php",
-		"oF": 0
-		},
 	"\/template-parts\/content-home.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2896,12 +3058,6 @@
 		"oAP": "\/template-parts\/content-none.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-our-groups.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/template-parts\/content-our-groups.php",
-		"oF": 0
-		},
 	"\/template-parts\/content-page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2912,6 +3068,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-profile.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-programme.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-programme.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-programmes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-programmes.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-recent.php": {
@@ -2930,6 +3098,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-settings.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-signup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-signup.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
