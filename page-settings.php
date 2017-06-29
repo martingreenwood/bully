@@ -5,6 +5,10 @@
  * @package bully
  */
 
+if (!is_user_logged_in()):
+	header("Location: " . home_url( '/profile/' ) );
+endif;
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">

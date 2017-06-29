@@ -7,11 +7,6 @@
  * @package bully
  */
 
-if (!is_user_logged_in()):
-	header("Location: " . home_url( '/profile/' ) );
-endif;
-
-
 $ft_image = do_shortcode( '[wpmem_field cover_image display=raw]' ); 
 $userID = get_current_user_id();
 $userData = get_userdata( $userID );
