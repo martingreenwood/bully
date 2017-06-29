@@ -4,7 +4,6 @@
 	color: white;
 	font-size: 14px;
 
-
 	.creditwhereitsdue {
 		a {
 			color: inherit;
@@ -13,7 +12,7 @@
 	}
 
 	.site-info {
-		background: $dark-gray;
+		background: $brand-primary;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		position: relative;
@@ -28,6 +27,10 @@
 			li {
 				margin-right: 20px;
 				margin-left: 0;
+
+				a {
+					color: white;
+				}
 
 				&:last-of-type {
 					margin-right: 0;

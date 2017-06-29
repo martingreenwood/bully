@@ -335,7 +335,48 @@
 ## wpmem_reg 
 --------------------------------------------------------------*/
 
-#wpmem_reg {
+#wpmem_reg, #wpmem_login {
+	color: black;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+
+	form {
+
+		fieldset {
+			margin: 0;
+			background: transparent;
+
+			legend {
+				display: none;
+			}
+
+			.div_text, .div_textarea, .div_select, .div_checkbox, .div_multiselect, .div_multicheckbox, .div_radio, .div_image, .div_file, .div_url, .div_number, .div_date {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			.link-text {
+				padding: 0;
+				width: 100%;
+				text-align: right;
+				margin-top: 10px;
+
+				a {
+					color: white;
+				}
+			}
+
+			.button_div {
+				width: 100%;
+				height: auto;
+				padding: 0;
+				text-align: right;
+			}
+
+		}
+	}
 
 	input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea,
 	input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file'])
@@ -356,6 +397,31 @@
 		outline: 0;
 	}
 
+}
+
+/*--------------------------------------------------------------
+## Login
+--------------------------------------------------------------*/
+
+.login {
+
+	#wpmem_login {
+		width: 50%;
+		margin: 0 auto;
+
+		form {
+
+			fieldset {
+
+				.link-text {
+
+					a {
+						color: $brand-primary;
+					}
+				}
+			}
+		}
+	}
 }
 
 /*--------------------------------------------------------------

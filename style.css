@@ -2251,21 +2251,56 @@ a {
 /*--------------------------------------------------------------
 ## wpmem_reg 
 --------------------------------------------------------------*/
-#wpmem_reg input[type="text"], #wpmem_reg input[type="email"], #wpmem_reg input[type="url"], #wpmem_reg input[type="password"], #wpmem_reg input[type="search"], #wpmem_reg textarea,
-#wpmem_reg input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
-  border-color: #ccc;
-  border-radius: 0;
-  box-shadow: none; }
+#wpmem_reg, #wpmem_login {
+  color: black;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit; }
+  #wpmem_reg form fieldset, #wpmem_login form fieldset {
+    margin: 0;
+    background: transparent; }
+    #wpmem_reg form fieldset legend, #wpmem_login form fieldset legend {
+      display: none; }
+    #wpmem_reg form fieldset .div_text, #wpmem_reg form fieldset .div_textarea, #wpmem_reg form fieldset .div_select, #wpmem_reg form fieldset .div_checkbox, #wpmem_reg form fieldset .div_multiselect, #wpmem_reg form fieldset .div_multicheckbox, #wpmem_reg form fieldset .div_radio, #wpmem_reg form fieldset .div_image, #wpmem_reg form fieldset .div_file, #wpmem_reg form fieldset .div_url, #wpmem_reg form fieldset .div_number, #wpmem_reg form fieldset .div_date, #wpmem_login form fieldset .div_text, #wpmem_login form fieldset .div_textarea, #wpmem_login form fieldset .div_select, #wpmem_login form fieldset .div_checkbox, #wpmem_login form fieldset .div_multiselect, #wpmem_login form fieldset .div_multicheckbox, #wpmem_login form fieldset .div_radio, #wpmem_login form fieldset .div_image, #wpmem_login form fieldset .div_file, #wpmem_login form fieldset .div_url, #wpmem_login form fieldset .div_number, #wpmem_login form fieldset .div_date {
+      width: 100%;
+      margin-bottom: 20px; }
+    #wpmem_reg form fieldset .link-text, #wpmem_login form fieldset .link-text {
+      padding: 0;
+      width: 100%;
+      text-align: right;
+      margin-top: 10px; }
+      #wpmem_reg form fieldset .link-text a, #wpmem_login form fieldset .link-text a {
+        color: white; }
+    #wpmem_reg form fieldset .button_div, #wpmem_login form fieldset .button_div {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      text-align: right; }
+  #wpmem_reg input[type="text"], #wpmem_reg input[type="email"], #wpmem_reg input[type="url"], #wpmem_reg input[type="password"], #wpmem_reg input[type="search"], #wpmem_reg textarea,
+  #wpmem_reg input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']), #wpmem_login input[type="text"], #wpmem_login input[type="email"], #wpmem_login input[type="url"], #wpmem_login input[type="password"], #wpmem_login input[type="search"], #wpmem_login textarea,
+  #wpmem_login input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
+    border-color: #ccc;
+    border-radius: 0;
+    box-shadow: none; }
+  #wpmem_reg button, #wpmem_reg input[type="button"], #wpmem_reg input[type="reset"], #wpmem_reg input[type="submit"], #wpmem_login button, #wpmem_login input[type="button"], #wpmem_login input[type="reset"], #wpmem_login input[type="submit"] {
+    width: 100%;
+    border: 0;
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0; }
 
-#wpmem_reg button, #wpmem_reg input[type="button"], #wpmem_reg input[type="reset"], #wpmem_reg input[type="submit"] {
-  width: 100%;
-  border: 0;
-  background: #333;
-  color: white;
-  text-transform: uppercase;
-  border-radius: 0;
-  box-shadow: none;
-  outline: 0; }
+/*--------------------------------------------------------------
+## Login
+--------------------------------------------------------------*/
+.login #wpmem_login {
+  width: 50%;
+  margin: 0 auto; }
+  .login #wpmem_login form fieldset .link-text a {
+    color: #e5bc19; }
 
 /*--------------------------------------------------------------
 ## Profile & More 
@@ -2684,7 +2719,7 @@ a {
     color: inherit;
     font-weight: 600; }
   #colophon .site-info {
-    background: #222;
+    background: #e5bc19;
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative; }
@@ -2695,6 +2730,8 @@ a {
       #colophon .site-info ul li {
         margin-right: 20px;
         margin-left: 0; }
+        #colophon .site-info ul li a {
+          color: white; }
         #colophon .site-info ul li:last-of-type {
           margin-right: 0; }
 

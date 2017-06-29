@@ -56,7 +56,7 @@
 		<?php if (is_user_logged_in()): ?>
 			<a class="myacc" href="<?php echo home_url( '/programmes' ); ?>">Go to My Account</a>
 		<?php else: ?>
-		<?php wp_login_form( ); ?>
+		<?php echo do_shortcode( '[wpmem_form login redirect_to="/profile/"]' ); ?>
 		<?php endif; ?>
 	</aside>
 
