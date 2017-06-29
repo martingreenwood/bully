@@ -2388,11 +2388,13 @@ a {
     display: block;
     position: relative; }
     .profile #tabbed .tab-content .tab .pb_charts {
-      margin-top: 40px;
-      position: relative; }
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 20px; }
       .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
         width: 31.4%;
-        margin-right: 20px; }
+        margin-right: 20px;
+        margin-top: 0; }
         .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl:last-of-type {
           margin-right: 0; }
         .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dd {
@@ -2516,6 +2518,8 @@ a {
     .profile #tabbed .tab-content .tab .update {
       padding: 20px 0;
       border-bottom: 1px solid #ccc; }
+      .profile #tabbed .tab-content .tab .update .date {
+        border-bottom: 1px solid #eee; }
       .profile #tabbed .tab-content .tab .update .meta {
         margin-top: 10px;
         background: #f9f9f9;
@@ -2592,13 +2596,40 @@ a {
   color: black;
   text-transform: uppercase;
   font-size: 26px;
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 0; }
 
 #groups p {
   margin-bottom: 20px; }
 
 #groups ul {
   margin-bottom: 0; }
+
+#groups .programme-info header {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+  #groups .programme-info header:after {
+    content: "?";
+    position: absolute;
+    line-height: 26px;
+    width: 26px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    top: 0;
+    right: 0;
+    border-radius: 50%; }
+
+#groups .programme-info section {
+  border-top: 2px solid #e5bc19;
+  display: none;
+  margin-top: 20px;
+  padding-top: 20px; }
+  #groups .programme-info section.show {
+    display: block; }
 
 #groups .group-posts {
   border-top: 2px solid #e5bc19;
@@ -2607,6 +2638,24 @@ a {
     border-bottom: 2px solid #e5bc19;
     padding-bottom: 20px;
     margin-bottom: 20px; }
+    #groups .group-posts .group-post .meta {
+      margin-top: 10px;
+      background: #f9f9f9;
+      padding: 10px;
+      border-top: 4px solid #eee; }
+      #groups .group-posts .group-post .meta small {
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 20px 0;
+        display: none; }
+      #groups .group-posts .group-post .meta .comments-load .button {
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 600;
+        background: #333;
+        padding: 5px 10px; }
 
 /*--------------------------------------------------------------
 ## Asides

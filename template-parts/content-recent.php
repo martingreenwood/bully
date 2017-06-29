@@ -233,7 +233,7 @@ $userData = get_userdata( $userID );
 								<?php //comments_template(); ?>
 							
 								<a class="comments-load" onclick="loadDisqus(jQuery(this), '<?php the_title(); ?>', '<?php the_permalink() ?>', '<?php the_id(); ?>');">
-									<span class="button">Show comments</span>
+									<span class="button">Discuss</span>
 								</a>
 
 							</div>

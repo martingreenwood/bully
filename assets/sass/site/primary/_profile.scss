@@ -148,8 +148,9 @@
 				position: relative;
 
 				.pb_charts {
-					margin-top: 40px;
+					margin-top: 0;
 					position: relative;
+					margin-bottom: 20px;
 
 					.pb_chart {
 
@@ -160,6 +161,7 @@
 						dl {
 							width: 31.4%;
 							margin-right: 20px;
+							margin-top: 0;
 
 							&:last-of-type {
 								margin-right: 0;
@@ -342,6 +344,10 @@
 					&:nth-child(even) {
 					}
 
+					.date {
+						border-bottom: 1px solid #eee;
+					}
+
 					.meta {
 						margin-top: 10px;
 						background: #f9f9f9;
@@ -465,6 +471,7 @@
 		text-transform: uppercase;
 		font-size: 26px;
 		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	p {
@@ -475,6 +482,41 @@
 		margin-bottom: 0;
 	}
 
+	.programme-info {
+
+		header{
+			border: 0;
+			padding: 0;
+			margin: 0;
+			position: relative;
+
+			&:after {
+				content: "?";
+				position: absolute;
+				line-height: 26px;
+				width: 26px;
+				text-align: center;
+				background-color: black;
+				color: white;
+				font-weight: 900;
+				top: 0;
+				right: 0;
+				border-radius: 50%;
+			}
+		}
+
+		section{
+			border-top: 2px solid #e5bc19;
+			display: none;
+			margin-top: 20px;
+			padding-top: 20px;
+
+			&.show {
+				display: block;
+			}
+		}
+	}
+
 	.group-posts {
 		border-top: 2px solid $brand-primary;
 		padding-top: 20px;
@@ -483,6 +525,30 @@
 			border-bottom: 2px solid $brand-primary;
 			padding-bottom: 20px;
 			margin-bottom: 20px;
+
+			.meta {
+				margin-top: 10px;
+				background: #f9f9f9;
+				padding: 10px;
+				border-top: 4px solid #eee;
+
+				small {
+					font-weight: 500;
+					text-transform: uppercase;
+					margin: 0 0 20px 0;
+					display: none;
+				}
+
+				.comments-load .button {
+					color: white;
+					text-transform: uppercase;
+					font-size: 12px;
+					cursor: pointer;
+					font-weight: 600;
+					background: #333;
+					padding: 5px 10px;
+				}
+			}
 		}
 	}
 }

@@ -43,6 +43,17 @@
 })(jQuery);
 
 
+// programme info
+
+(function ($) {
+
+	$(".programme-info header").on('click', function(event) {
+		event.preventDefault();
+		$(this).next('section').toggleClass('show');
+	});
+
+})(jQuery);
+
 //	DISCUSS COMMENTS
 var disqus_shortname = 'bullpen-fitness';
 var disqus_identifier;

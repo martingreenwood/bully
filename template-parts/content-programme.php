@@ -57,8 +57,13 @@ $userData = get_userdata( $userID );
 				$user_groups = wp_get_object_terms($userID, 'user-group', array('fields' => 'all_with_object_id'));  // Get user group detail
 				foreach($user_groups as $user_gro)
 				{
+					$usergroupid = $user_gro->term_taxonomy_id; // Get current user group name
 					$usergroupslug = $user_gro->slug; // Get current user group name
 				}
+
+				// echo '<pre>';
+				// print_r($user_gro);
+				// echo '</pre>';
 
 				$args = array(
 				'name'        => $usergroupslug,
@@ -70,7 +75,7 @@ $userData = get_userdata( $userID );
 				if( $my_posts ) :
 				$my_post = current($my_posts);
 				?>
-				<div class="row">
+				<div class="row programme-info">
 					<header>
 						<h1><?php echo $my_post->post_title; ?> Programme</h1>
 					</header>
@@ -100,6 +105,14 @@ $userData = get_userdata( $userID );
 					$args = array(
 						'post_type' 		=> 'post',
 						'posts_per_page' 	=> 10,
+						'meta_query' => array(
+							array(
+								'key'     => 'programme_select',
+								'value'   => $usergroupid, // in da future
+								'compare' => '=',
+							),
+						),
+
 					);
 					$query = new WP_Query( $args );
 					if ( $query->have_posts() ): 
@@ -121,7 +134,7 @@ $userData = get_userdata( $userID );
 										<?php //comments_template(); ?>
 									
 										<a class="comments-load" onclick="loadDisqus(jQuery(this), '<?php the_title(); ?>', '<?php the_permalink() ?>', '<?php the_id(); ?>');">
-											<span class="button">Show comments</span>
+											<span class="button">Discuss</span>
 										</a>
 
 									</div>
@@ -140,70 +153,7 @@ $userData = get_userdata( $userID );
 					
 				</div>
 
-
-
-				<?php 
-				$args = array(
-					'post_type' 		=> 'user_groups',
-					'posts_per_page' 	=> 10,
-				);
-				$query = new WP_Query( $args );
-
-				if ( $query->have_posts() ): 
-					while ( $query->have_posts() ): $query->the_post();
-					?>
-				<div class="row">
-					<div class="span5">
-						
-
-
-					</div>
-					<div class="span7">
-
-						<?php
-						$taxonomy = 'user-group';
-						$users = get_objects_in_term( $taxonomy ); 
-
-						if(!empty($users)){
-
-							// WP_User_Query arguments
-							$args = array (
-							'role'           => 'subscriber',
-							'order'          => 'DESC',
-							'orderby'        => 'user_registered',
-							'include'        => $users
-							);
-
-							// The User Query
-							$user_query = new WP_User_Query( $args );
-
-							// The User Loop
-							if ( ! empty( $user_query->results ) ) {
-								foreach ( $user_query->results as $user ) {
-									?>
-									<pre>
-										<?php print_r($user); ?>
-									</pre>
-									<?php
-								}
-							} 
-							else {
-								// no shop_manager found 
-							}
-						}
-						else {
-							echo "MISSING";
-						}
-						?>
-
-
-					</div>
-				</div>
-					<?php
-					endwhile; 
-					wp_reset_postdata(); 
-				endif;
-				?>
+				
 					
 				</div>
 
