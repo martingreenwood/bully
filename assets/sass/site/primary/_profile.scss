@@ -176,7 +176,7 @@
 				.other_acc_links {
 					display: none;
 
-					@include media (#medium-screen-up) {
+					@include media ($medium-screen-up) {
 						display: block;
 					}
 				}
@@ -337,7 +337,7 @@
 						margin: 0;
 						color: $brand-primary;
 
-						@include media (#medium-screen-up) {
+						@include media ($medium-screen-up) {
 							width: 25%;
 						}
 					}
@@ -347,7 +347,7 @@
 						float: left;
 						width: 100%;
 
-						@include media (#medium-screen-up) {
+						@include media ($medium-screen-up) {
 							width: 75%;
 						}
 
@@ -374,7 +374,7 @@
 					top: 12px;
 					right: 0;
 
-					@include media (#medium-screen-up) {
+					@include media ($medium-screen-up) {
 						position: absolute;
 					}
 
@@ -388,7 +388,7 @@
 						margin: 0;
 						margin-bottom: 5px;
 
-						@include media (#medium-screen-up) {
+						@include media ($medium-screen-up) {
 							display: inline-block;
 							margin-left: 10px;
 							margin-bottom: 0;
@@ -409,7 +409,7 @@
 						small {
 							display: block;
 							
-							@include media (#medium-screen-up) {
+							@include media ($medium-screen-up) {
 								display: initial;
 							}
 						}

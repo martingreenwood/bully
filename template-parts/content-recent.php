@@ -78,7 +78,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'deadlift' )) {
-											the_field( 'deadlift' ) . echo 'KG';
+											echo get_field( 'deadlift' ) . 'KG';
 										} else {
 											echo '--';
 										}
@@ -89,7 +89,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'back_squat' )) {
-											the_field( 'back_squat' ) .'KG';
+											echo get_field( 'back_squat' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -100,7 +100,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'strict_press' )) {
-											the_field( 'strict_press' ) .'KG';
+											echo get_field( 'strict_press' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -111,7 +111,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'bench_press' )) {
-											the_field( 'bench_press' ) .'KG';
+											echo get_field( 'bench_press' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -122,7 +122,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'push_press' )) {
-											the_field( 'push_press' ) .'KG';
+											echo get_field( 'push_press' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -134,7 +134,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'ohs' )) {
-											the_field( 'ohs' ) .'KG';
+											echo get_field( 'ohs' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -145,7 +145,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'front_squat' )) {
-											the_field( 'front_squat' ) .'KG';
+											echo get_field( 'front_squat' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -156,7 +156,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'snatch' )) {
-											the_field( 'snatch' ) .'KG';
+											echo get_field( 'snatch' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -167,7 +167,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'clean_jerk' )) {
-											the_field( 'clean_jerk' ) .'KG';
+											echo get_field( 'clean_jerk' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -179,7 +179,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'jerk' )) {
-											the_field( 'jerk' ) .'KG';
+											echo get_field( 'jerk' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -190,7 +190,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_snatch' )) {
-											the_field( 'p_snatch' ) .'KG';
+											echo get_field( 'p_snatch' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -201,7 +201,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_clean' )) {
-											the_field( 'p_clean' ) .'KG';
+											echo get_field( 'p_clean' ) .'KG';
 										} else {
 											echo '--';
 										}
@@ -212,7 +212,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_jerk' )) {
-											the_field( 'p_jerk' ) .'KG';
+											echo get_field( 'p_jerk' ) .'KG';
 										} else {
 											echo '--';
 										}

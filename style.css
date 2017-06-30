@@ -2507,7 +2507,7 @@ a {
     position: relative; }
     .profile #tabbed .tab-content .tab .other_acc_links {
       display: none; }
-      @media screen and (min-width: #medium-screen-up) {
+      @media screen and (min-width: 600px) {
         .profile #tabbed .tab-content .tab .other_acc_links {
           display: block; } }
     .profile #tabbed .tab-content .tab .pb_charts {
@@ -2617,14 +2617,14 @@ a {
         width: 100%;
         margin: 0;
         color: #e5bc19; }
-        @media screen and (min-width: #medium-screen-up) {
+        @media screen and (min-width: 600px) {
           .profile #tabbed .tab-content .tab dl dt {
             width: 25%; } }
       .profile #tabbed .tab-content .tab dl dd {
         margin: 0;
         float: left;
         width: 100%; }
-        @media screen and (min-width: #medium-screen-up) {
+        @media screen and (min-width: 600px) {
           .profile #tabbed .tab-content .tab dl dd {
             width: 75%; } }
         .profile #tabbed .tab-content .tab dl dd p {
@@ -2641,7 +2641,7 @@ a {
       position: relative;
       top: 12px;
       right: 0; }
-      @media screen and (min-width: #medium-screen-up) {
+      @media screen and (min-width: 600px) {
         .profile #tabbed .tab-content .tab .update_links {
           position: absolute; } }
       .profile #tabbed .tab-content .tab .update_links .update {
@@ -2652,7 +2652,7 @@ a {
         display: block;
         margin: 0;
         margin-bottom: 5px; }
-        @media screen and (min-width: #medium-screen-up) {
+        @media screen and (min-width: 600px) {
           .profile #tabbed .tab-content .tab .update_links .update {
             display: inline-block;
             margin-left: 10px;
@@ -2664,7 +2664,7 @@ a {
         border-bottom: 1px solid #eee; }
         .profile #tabbed .tab-content .tab .update .date small {
           display: block; }
-          @media screen and (min-width: #medium-screen-up) {
+          @media screen and (min-width: 600px) {
             .profile #tabbed .tab-content .tab .update .date small {
               display: initial; } }
       .profile #tabbed .tab-content .tab .update .meta {
