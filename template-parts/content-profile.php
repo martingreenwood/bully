@@ -142,39 +142,128 @@ $userData = get_userdata( $userID );
 							</dd>
 							
 							<dt>STRICT PRESS</dt>
-							<dd><?php echo max($strict_press); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($strict_press)) {
+										echo max($strict_press) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>BENCH PRESS</dt>
-							<dd><?php echo max($bench_press); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($bench_press)) {
+										echo max($bench_press) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>PUSH PRESS</dt>
-							<dd><?php echo max($push_press); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($push_press)) {
+										echo max($push_press) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 						</dl>
 						<dl>
 							<dt>OHS</dt>
-							<dd><?php echo max($ohs); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($ohs)) {
+										echo max($ohs) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>FRONT SQUAT</dt>
-							<dd><?php echo max($front_squat); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($front_squat)) {
+										echo max($front_squat) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>SNATCH</dt>
-							<dd><?php echo max($snatch); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($snatch)) {
+										echo max($snatch) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>CLEAN &amp; JERK</dt>
-							<dd><?php echo max($clean_jerk); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($clean_jerk)) {
+										echo max($clean_jerk) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+
 						</dl>
 						<dl>
 							<dt>JERK</dt>
-							<dd><?php echo max($jerk); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($jerk)) {
+										echo max($jerk) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>P. SNATCH</dt>
-							<dd><?php echo max($p_snatch); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($p_snatch)) {
+										echo max($p_snatch) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>P. CLEAMN</dt>
-							<dd><?php echo max($p_clean); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($p_clean)) {
+										echo max($p_clean) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 							
 							<dt>P. JERK</dt>
-							<dd><?php echo max($p_jerk); ?>KG</dd>
+							<dd>
+								<?php 
+									if (!empty($p_jerk)) {
+										echo max($p_jerk) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
 						</dl>
 
 						<div class="clear"></div>

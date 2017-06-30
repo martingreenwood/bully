@@ -78,7 +78,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'deadlift' )) {
-											the_field( 'deadlift' ) .'KG';
+											the_field( 'deadlift' ) . echo 'KG';
 										} else {
 											echo '--';
 										}
