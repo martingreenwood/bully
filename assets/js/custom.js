@@ -54,6 +54,7 @@
 
 })(jQuery);
 
+
 //	DISCUSS COMMENTS
 var disqus_shortname = 'bullpen-fitness';
 var disqus_identifier;
@@ -62,7 +63,7 @@ var disqus_url;
 // Loads the Disqus JS file that will create the comment form and threads.
 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js'; // Found in disqus.js script
-$('head').append(dsq);
+jQuery('head').append(dsq);
 
 // Called in each location you want to show the thread.
 

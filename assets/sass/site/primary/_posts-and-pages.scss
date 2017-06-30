@@ -2,13 +2,6 @@
 ## General
 --------------------------------------------------------------*/
 
-#masthead {
-	position: fixed;
-	width: 100%;
-	background: transparent;
-	z-index: 1;
-}
-
 #topimage {
 	position: relative;
 
@@ -26,6 +19,11 @@
 		.copy {
 			float: right;
 			width: 50%;
+			display: none;
+
+			@include media ($medium-screen-up) {
+				display: block;
+			}
 
 			h3 {
 				color: white;
@@ -63,9 +61,13 @@
 	article {
 		padding: 20px;
 		background: white;
-		margin-top: -120px;
+		margin-top: -40px;
 		position: relative;
 		border-top: 3px solid $brand-primary;
+
+		@include media ($medium-screen-up) {
+			margin-top: -120px;
+		}
 
 		header {
 			margin-bottom: 20px;
@@ -78,13 +80,20 @@
 				text-transform: uppercase;
 				margin: 0;
 				line-height: 1;
+
+				@include media ($medium-screen-up) {
+				}
 			}
 			
 			h2 {
-				font-size: 50px;
+				font-size: 40px;
 				line-height: 1;
 				text-transform: uppercase;
 				margin: 0;
+
+				@include media ($medium-screen-up) {
+					font-size: 50px;
+				}
 			}
 		}
 	}
@@ -136,24 +145,44 @@
 			padding: 4px 10px;
 			font-weight: 500;
 			position: absolute;
-			top: 20px;
+			top: auto;
+			bottom: 0;
 			right: 0;
+
+			@include media ($medium-screen-up) {
+				top: 20px;
+				bottom: auto;
+			}
 		}
 
 		h2 {
 			margin-bottom: 40px;
-			font-size: 20px;
+			font-size: 18px;
+
+			@include media ($medium-screen-up) {
+				font-size: 20px;
+			}
 		}
 
 		ul {
 			margin: 0;
 			text-align: center;
+			padding-bottom: 30px;
 
+			@include media ($medium-screen-up) {
+				padding-bottom: 0;
+			}
+			
 			li {
 				display: inline-block;
-				width: 24%;
+				width: 48%;
 				vertical-align: top;
+				margin-bottom: 20px;
 				padding: 0 5px;
+
+				@include media ($medium-screen-up) {
+					width: 24%;
+				}
 
 				img {
 					display: block;
@@ -210,10 +239,14 @@
 
 			li {
 				float: left;
-				width: 50%;
+				width: 100%;
 				border-top: 2px solid #e5bc19;
 				margin-top: 20px;
 				padding-top: 20px;
+
+				@include media($medium-screen-up) {
+					width: 50%;	
+				}
 
 				&:nth-child(1), &:nth-child(2) {
 					border-top: 0;
@@ -235,9 +268,13 @@
 				}
 
 				.icon {
-					width: 30%;
+					width: 100%;
 					float: left;
 					text-align: center;
+
+					@include media($medium-screen-up) {
+						width: 30%;
+					}
 
 					img {
 						display: block;
@@ -266,11 +303,19 @@
 				}
 
 				.copy {
-					width: 70%;
+					width: 100%;
 					float: left;
-					padding-left: 20px;
-					padding-right: 20px;
 					box-sizing: border-box;
+					margin-bottom: 40px;
+					margin-top: 40px;
+
+					@include media($medium-screen-up) {
+						width: 70%;
+						padding-left: 20px;
+						padding-right: 20px;
+						margin-bottom: 0;
+						margin-top: 0;
+					}
 
 					p {
 						font-weight: 600;
@@ -406,8 +451,12 @@
 .login {
 
 	#wpmem_login {
-		width: 50%;
+		width: 80%;
 		margin: 0 auto;
+
+		@include media($medium-screen-up) {
+			width: 50%;
+		}
 
 		form {
 

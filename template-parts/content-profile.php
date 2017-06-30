@@ -73,9 +73,11 @@ $userData = get_userdata( $userID );
 				</div>
 
 
-				<div class="pb_charts">
+				<div class="pb_charts" style="margin-top: 40px;">
 
 					<h2>PB CHART</h2>
+					<p>To update these details please visit the <a href="<?php echo home_url( '/recent '); ?>">WOD Diary</a> and submit a workout summary.</p>
+					<br><br>
 
 					<?php
 					$args = array( 'post_type' => array('pb_charts'), 'author' => $userID, 'posts_per_page' => -1 );

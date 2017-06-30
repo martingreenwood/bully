@@ -1497,14 +1497,25 @@ a {
     float: left;
     position: relative;
     margin-left: 15px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0; }
+    @media screen and (min-width: 600px) {
+      .main-navigation li {
+        width: auto;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        text-align: left; } }
     .main-navigation li:hover > a,
     .main-navigation li.focus > a {
       color: #e5bc19; }
     .main-navigation li:last-of-type a {
-      color: #e5bc19;
-      border-left: 2px solid;
-      padding-left: 15px; }
+      color: #e5bc19; }
+      @media screen and (min-width: 600px) {
+        .main-navigation li:last-of-type a {
+          padding-left: 15px;
+          border-left: 2px solid; } }
   .main-navigation a {
     display: block;
     color: white;
@@ -1522,6 +1533,14 @@ a {
 .main-navigation.toggled ul {
   display: block; }
 
+.main-navigation.toggled ul {
+  position: relative;
+  width: 100%;
+  margin-top: 79px;
+  background: #2B2B2A;
+  display: inline-block;
+  padding: 20px; }
+
 .menu-toggle {
   display: block; }
 
@@ -1538,14 +1557,17 @@ a {
   position: absolute;
   right: 0;
   top: 22px;
-  background: rgba(220, 205, 205, 0);
+  background: transparent !important;
   border: 0;
   padding: 0;
-  width: 30px; }
+  width: 30px;
+  box-shadow: none;
+  outline: 0;
+  margin: 9px 0; }
   .menu-toggle span {
     width: 100%;
     height: 5px;
-    background: #000;
+    background: #e5bc19;
     display: block;
     margin-bottom: 5px;
     border-radius: 10px; }
@@ -2001,11 +2023,15 @@ a {
 ## Posts and pages
 --------------------------------------------------------------*/
 #masthead {
-  position: fixed;
+  position: relative;
+  background-color: #2B2B2B;
   width: 100%;
-  background-color: transparent;
   z-index: 1;
   transition: background-color 300ms ease-in-out; }
+  @media screen and (min-width: 600px) {
+    #masthead {
+      position: fixed;
+      background-color: transparent; } }
   #masthead.darkHeader {
     background-color: #2B2B2B; }
   #masthead .row {
@@ -2025,12 +2051,6 @@ a {
 /*--------------------------------------------------------------
 ## General
 --------------------------------------------------------------*/
-#masthead {
-  position: fixed;
-  width: 100%;
-  background: transparent;
-  z-index: 1; }
-
 #topimage {
   position: relative; }
   #topimage img {
@@ -2043,7 +2063,11 @@ a {
     height: 100%; }
     #topimage .caption .copy {
       float: right;
-      width: 50%; }
+      width: 50%;
+      display: none; }
+      @media screen and (min-width: 600px) {
+        #topimage .caption .copy {
+          display: block; } }
       #topimage .caption .copy h3 {
         color: white;
         text-transform: uppercase;
@@ -2068,9 +2092,12 @@ a {
 #primary article {
   padding: 20px;
   background: white;
-  margin-top: -120px;
+  margin-top: -40px;
   position: relative;
   border-top: 3px solid #e5bc19; }
+  @media screen and (min-width: 600px) {
+    #primary article {
+      margin-top: -120px; } }
   #primary article header {
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -2082,10 +2109,13 @@ a {
       margin: 0;
       line-height: 1; }
     #primary article header h2 {
-      font-size: 50px;
+      font-size: 40px;
       line-height: 1;
       text-transform: uppercase;
       margin: 0; }
+      @media screen and (min-width: 600px) {
+        #primary article header h2 {
+          font-size: 50px; } }
 
 #primary .map {
   width: 100%;
@@ -2120,19 +2150,35 @@ a {
     padding: 4px 10px;
     font-weight: 500;
     position: absolute;
-    top: 20px;
+    top: auto;
+    bottom: 0;
     right: 0; }
+    @media screen and (min-width: 600px) {
+      .home .groups .more {
+        top: 20px;
+        bottom: auto; } }
   .home .groups h2 {
     margin-bottom: 40px;
-    font-size: 20px; }
+    font-size: 18px; }
+    @media screen and (min-width: 600px) {
+      .home .groups h2 {
+        font-size: 20px; } }
   .home .groups ul {
     margin: 0;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 30px; }
+    @media screen and (min-width: 600px) {
+      .home .groups ul {
+        padding-bottom: 0; } }
     .home .groups ul li {
       display: inline-block;
-      width: 24%;
+      width: 48%;
       vertical-align: top;
+      margin-bottom: 20px;
       padding: 0 5px; }
+      @media screen and (min-width: 600px) {
+        .home .groups ul li {
+          width: 24%; } }
       .home .groups ul li img {
         display: block;
         width: 80px;
@@ -2170,10 +2216,13 @@ a {
   list-style: none; }
   .programmes .groups ul li {
     float: left;
-    width: 50%;
+    width: 100%;
     border-top: 2px solid #e5bc19;
     margin-top: 20px;
     padding-top: 20px; }
+    @media screen and (min-width: 600px) {
+      .programmes .groups ul li {
+        width: 50%; } }
     .programmes .groups ul li:nth-child(1), .programmes .groups ul li:nth-child(2) {
       border-top: 0;
       margin-top: 0;
@@ -2188,9 +2237,12 @@ a {
         margin-top: 0;
         padding-top: 0; }
     .programmes .groups ul li .icon {
-      width: 30%;
+      width: 100%;
       float: left;
       text-align: center; }
+      @media screen and (min-width: 600px) {
+        .programmes .groups ul li .icon {
+          width: 30%; } }
       .programmes .groups ul li .icon img {
         display: block; }
       .programmes .groups ul li .icon h3 {
@@ -2209,11 +2261,18 @@ a {
           padding: 5px;
           font-size: 25px; }
     .programmes .groups ul li .copy {
-      width: 70%;
+      width: 100%;
       float: left;
-      padding-left: 20px;
-      padding-right: 20px;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      margin-bottom: 40px;
+      margin-top: 40px; }
+      @media screen and (min-width: 600px) {
+        .programmes .groups ul li .copy {
+          width: 70%;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-bottom: 0;
+          margin-top: 0; } }
       .programmes .groups ul li .copy p {
         font-weight: 600; }
 
@@ -2297,8 +2356,11 @@ a {
 ## Login
 --------------------------------------------------------------*/
 .login #wpmem_login {
-  width: 50%;
+  width: 80%;
   margin: 0 auto; }
+  @media screen and (min-width: 600px) {
+    .login #wpmem_login {
+      width: 50%; } }
   .login #wpmem_login form fieldset .link-text a {
     color: #e5bc19; }
 
@@ -2342,15 +2404,24 @@ a {
   .profile .name_info .avatar img {
     display: block;
     border: 5px solid white;
-    margin: -60px 0 0 30px;
-    width: 210px; }
+    margin: -40px auto 0;
+    width: 140px; }
+    @media screen and (min-width: 600px) {
+      .profile .name_info .avatar img {
+        margin: -60px 0 0 30px;
+        width: 210px; } }
 
 .profile .name_info .meta {
   border-bottom: 2px solid #e5bc19;
-  position: absolute;
   right: 0;
   bottom: 0;
-  padding-bottom: 19px; }
+  padding-bottom: 19px;
+  position: relative;
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .profile .name_info .meta {
+      position: absolute;
+      text-align: left; } }
   .profile .name_info .meta .name {
     float: left; }
     .profile .name_info .meta .name h2 {
@@ -2385,8 +2456,15 @@ a {
     font-weight: 600;
     margin-bottom: 30px; }
   .profile #tabbed .side {
-    border-left: 2px solid #e5bc19;
-    padding: 0 0 0 30px; }
+    border-top: 2px solid #e5bc19;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0; }
+    @media screen and (min-width: 600px) {
+      .profile #tabbed .side {
+        border-top: 0;
+        border-left: 2px solid #e5bc19;
+        padding: 0 0 0 30px;
+        margin: 0; } }
   .profile #tabbed .tabs {
     width: 100%;
     display: inline-block; }
@@ -2400,15 +2478,20 @@ a {
       clear: both;
       content: ''; }
     .profile #tabbed .tab-links li {
-      margin: 0px 10px 0 0;
       float: left;
-      list-style: none; }
+      list-style: none;
+      width: 100%;
+      margin: 0; }
+      @media screen and (min-width: 600px) {
+        .profile #tabbed .tab-links li {
+          width: auto;
+          margin: 0px 10px 0 0; } }
       .profile #tabbed .tab-links li.right {
         float: right;
         margin-right: 0; }
       .profile #tabbed .tab-links li a {
         padding: 9px 15px;
-        display: inline-block;
+        display: block;
         font-weight: 600;
         background-color: #f9f9f9;
         transition: all linear 0.15s; }
@@ -2422,14 +2505,22 @@ a {
   .profile #tabbed .tab-content .tab {
     display: block;
     position: relative; }
+    .profile #tabbed .tab-content .tab .other_acc_links {
+      display: none; }
+      @media screen and (min-width: #medium-screen-up) {
+        .profile #tabbed .tab-content .tab .other_acc_links {
+          display: block; } }
     .profile #tabbed .tab-content .tab .pb_charts {
       margin-top: 0;
       position: relative;
       margin-bottom: 20px; }
       .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
-        width: 31.4%;
+        width: 100%;
         margin-right: 20px;
         margin-top: 0; }
+        @media screen and (min-width: #medium-screen-up) {
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
+            width: 31.4%; } }
         .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl:last-of-type {
           margin-right: 0; }
         .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dd {
@@ -2523,13 +2614,19 @@ a {
       width: 100%; }
       .profile #tabbed .tab-content .tab dl dt {
         float: left;
-        width: 25%;
+        width: 100%;
         margin: 0;
         color: #e5bc19; }
+        @media screen and (min-width: #medium-screen-up) {
+          .profile #tabbed .tab-content .tab dl dt {
+            width: 25%; } }
       .profile #tabbed .tab-content .tab dl dd {
         margin: 0;
         float: left;
-        width: 75%; }
+        width: 100%; }
+        @media screen and (min-width: #medium-screen-up) {
+          .profile #tabbed .tab-content .tab dl dd {
+            width: 75%; } }
         .profile #tabbed .tab-content .tab dl dd p {
           margin: 0; }
     .profile #tabbed .tab-content .tab #gform_wrapper_1 {
@@ -2541,20 +2638,35 @@ a {
       padding: 0;
       width: 100%; }
     .profile #tabbed .tab-content .tab .update_links {
-      position: absolute;
+      position: relative;
       top: 12px;
       right: 0; }
+      @media screen and (min-width: #medium-screen-up) {
+        .profile #tabbed .tab-content .tab .update_links {
+          position: absolute; } }
       .profile #tabbed .tab-content .tab .update_links .update {
-        margin-left: 10px;
         padding: 10px;
         background: #e5bc19;
         color: white;
-        font-weight: 600; }
+        font-weight: 600;
+        display: block;
+        margin: 0;
+        margin-bottom: 5px; }
+        @media screen and (min-width: #medium-screen-up) {
+          .profile #tabbed .tab-content .tab .update_links .update {
+            display: inline-block;
+            margin-left: 10px;
+            margin-bottom: 0; } }
     .profile #tabbed .tab-content .tab .update {
       padding: 20px 0;
       border-bottom: 1px solid #ccc; }
       .profile #tabbed .tab-content .tab .update .date {
         border-bottom: 1px solid #eee; }
+        .profile #tabbed .tab-content .tab .update .date small {
+          display: block; }
+          @media screen and (min-width: #medium-screen-up) {
+            .profile #tabbed .tab-content .tab .update .date small {
+              display: initial; } }
       .profile #tabbed .tab-content .tab .update .meta {
         margin-top: 10px;
         background: #f9f9f9;

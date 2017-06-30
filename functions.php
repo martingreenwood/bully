@@ -171,6 +171,14 @@ function my_acf_init() {
 add_action('acf/init', 'my_acf_init');
 
 
+// FORGOT PASSWORD CHANGE
+
+add_filter( 'wpmem_forgot_link', 'my_forgot_link' );
+ 
+function my_forgot_link( $str ) {
+    return 'http://my.bullpenfitness.co.uk/reset-password/';
+}
+
 /**
  * Custom posts types
  */

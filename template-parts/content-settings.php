@@ -52,6 +52,8 @@ $userData = get_userdata( $userID );
 			<div class="span8 tab">
 
 				<h2>Settings</h2>
+
+				<p><stong></stong></p>
 				<?php the_content( ); ?>
 
 				<div class="clear"></div>

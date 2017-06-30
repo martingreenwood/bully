@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row">
 						<div class="span4">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo2.svg">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-bottom.svg">
 						</div>
 						<nav class="main-navigation span8" role="navigation">
 							<div class="table"><div class="cell middle">

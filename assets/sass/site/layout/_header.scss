@@ -1,9 +1,15 @@
 #masthead {
-	position: fixed;
+	position: relative;
+	background-color: #2B2B2B;
 	width: 100%;
-	background-color: transparent;
+
 	z-index: 1;
 	transition: background-color 300ms ease-in-out;
+
+	@include media($medium-screen-up) {
+		position: fixed;
+		background-color: transparent;
+	}
 
 	&.darkHeader {
 		background-color: #2B2B2B;

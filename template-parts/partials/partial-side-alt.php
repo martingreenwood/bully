@@ -4,9 +4,9 @@
 					<h2>CONTACT INFO</h2>
 					<div class="phone box">
 						<dl>
-							<dt>GENERL ENQUIRIES</dt>
+							<dt>GENERAL ENQUIRIES</dt>
 							<dd><?php the_field( 'phone_number', 'option' ); ?></dd>
-							<dt>EMAIL ENQUIRIOES</dt>
+							<dt>EMAIL ENQUIRIES</dt>
 							<dd><?php the_field( 'email', 'option' ); ?></dd>
 						</dl>
 					</div>

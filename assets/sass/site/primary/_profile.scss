@@ -24,17 +24,29 @@
 			img {
 				display: block;
 				border: 5px solid white;
-				margin: -60px 0 0 30px;
-				width: 210px;
+				margin: -40px auto 0;
+				width: 140px;
+
+				@include media ($medium-screen-up) {
+					margin: -60px 0 0 30px;
+					width: 210px;
+				}
 			}
 		}
 
 		.meta {
 			border-bottom: 2px solid $brand-primary;
-			position: absolute;
 			right: 0;
 			bottom: 0;
 			padding-bottom: 19px;
+
+			position: relative;
+			text-align: center;
+
+			@include media ($medium-screen-up) {
+				position: absolute;
+				text-align: left;
+			}
 
 			.name {
 				float: left;
@@ -81,9 +93,17 @@
 		}
 
 		.side {
-			border-left: 2px solid $brand-primary;
-			padding: 0 0 0 30px;
+			border-top: 2px solid $brand-primary;
+			padding: 20px 0 0 0;
+			margin: 20px 0 0 0;
 
+
+			@include media ($medium-screen-up) {
+				border-top: 0;
+				border-left: 2px solid $brand-primary;
+				padding: 0 0 0 30px;
+				margin: 0;
+			}
 		}
 
 		/*----- Tabs -----*/
@@ -106,9 +126,15 @@
 			}
 
 			li {
-				margin: 0px 10px 0 0;
 				float: left;
 				list-style: none;
+				width: 100%;
+				margin: 0;
+
+				@include media ($medium-screen-up) {
+					width: auto;
+					margin: 0px 10px 0 0;
+				}
 
 				&.right {
 					float: right;
@@ -117,7 +143,7 @@
 			
 				a {
 					padding: 9px 15px;
-					display: inline-block;
+					display: block;
 					font-weight: 600;
 					background-color: #f9f9f9;
 					transition: all linear 0.15s;
@@ -147,6 +173,14 @@
 				display:block;
 				position: relative;
 
+				.other_acc_links {
+					display: none;
+
+					@include media (#medium-screen-up) {
+						display: block;
+					}
+				}
+
 				.pb_charts {
 					margin-top: 0;
 					position: relative;
@@ -159,9 +193,13 @@
 						}
 
 						dl {
-							width: 31.4%;
+							width: 100%;
 							margin-right: 20px;
 							margin-top: 0;
+
+							@include media (#medium-screen-up) {
+								width: 31.4%;
+							}
 
 							&:last-of-type {
 								margin-right: 0;
@@ -295,15 +333,23 @@
 
 					dt {
 						float: left;
-						width: 25%;
+						width: 100%;
 						margin: 0;
 						color: $brand-primary;
+
+						@include media (#medium-screen-up) {
+							width: 25%;
+						}
 					}
 					
 					dd {
 						margin: 0;
 						float: left;
-						width: 75%;
+						width: 100%;
+
+						@include media (#medium-screen-up) {
+							width: 75%;
+						}
 
 						p {
 							margin: 0;
@@ -324,16 +370,29 @@
 				}
 
 				.update_links {
-					position: absolute;
+					position: relative;
 					top: 12px;
 					right: 0;
 
+					@include media (#medium-screen-up) {
+						position: absolute;
+					}
+
 					.update {
-						margin-left: 10px;
 						padding: 10px;
 						background: $brand-primary; 
 						color: white;
 						font-weight: 600;
+
+						display: block;
+						margin: 0;
+						margin-bottom: 5px;
+
+						@include media (#medium-screen-up) {
+							display: inline-block;
+							margin-left: 10px;
+							margin-bottom: 0;
+						}
 					}
 				}
 
@@ -346,6 +405,14 @@
 
 					.date {
 						border-bottom: 1px solid #eee;
+
+						small {
+							display: block;
+							
+							@include media (#medium-screen-up) {
+								display: initial;
+							}
+						}
 					}
 
 					.meta {
