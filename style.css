@@ -2518,7 +2518,7 @@ a {
         width: 100%;
         margin-right: 20px;
         margin-top: 0; }
-        @media screen and (min-width: #medium-screen-up) {
+        @media screen and (min-width: 600px) {
           .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
             width: 31.4%; } }
         .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl:last-of-type {
