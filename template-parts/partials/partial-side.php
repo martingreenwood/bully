@@ -21,12 +21,14 @@
 				if( have_rows('special_offers', 'option') ):
 				    while ( have_rows('special_offers', 'option') ) : the_row();
 
-						if (get_field( 'Special_Offer', 'option' )): ?>
-						<a href="<?php the_field( 'Special_Offer_Link', 'option' ); ?>">
-							<?php $advert = get_field( 'Special_Offer', 'option' ); ?>
+						?>
+						<div style="width: 50%; float: left;">
+						<a href="<?php the_sub_field( 'Special_Offer_Link', 'option' ); ?>">
+							<?php $advert = get_sub_field( 'special_offer', 'option' ); ?>
 							<img src="<?php echo $advert['url']; ?>">
 						</a>
-						<?php endif;
+						</div>
+						<?php
 
 				    endwhile;
 				endif;
