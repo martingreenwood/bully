@@ -26,7 +26,7 @@ $userData = get_userdata( $userID );
 			<div class="meta span9">
 				<div class="name">
 					<h2><?php echo do_shortcode( '[wpmem_field first_name] [wpmem_field last_name]' ); ?></h2>
-					<h3><?php echo do_shortcode( '[wpmem_field tag_line]' ); ?></h3>
+					<h3><?php echo do_shortcode( '[wpmem_field tag_line]' ); ?> <?php if( current_user_can('manage_options') ): ?> - Site Admin <?php endif; ?></h3>
 				</div>
 
 				<div class="badges">
@@ -40,10 +40,13 @@ $userData = get_userdata( $userID );
 
 		<ul class="tab-links">
 			<li><a href="<?php echo home_url( '/profile' ); ?>">My Profile</a></li>
-			<li><a href="<?php echo home_url( '/recent' ); ?>">WOD Diary</a></li>
+			<li><a href="<?php echo home_url( '/recent' ); ?>">My Diary</a></li>
 			<li><a href="<?php echo home_url( '/programme' ); ?>">My Programme</a></li>
 			<!-- <li class="active"><a href="<?php echo home_url( '/messages' ); ?>">Messages</a></li> -->
 			<li><a href="<?php echo home_url( '/settings' ); ?>">Settings</a></li>
+			<?php if( current_user_can('manage_options') ): ?>
+			<li><a href="<?php echo home_url( '/admin-view' ); ?>">Admin View</a></li>
+			<?php endif; ?>
 			<li class="right"><a href="<?php echo home_url( '/?a=logout' ); ?>">Logout</a></li>
 		</ul>
 

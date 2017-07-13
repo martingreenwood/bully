@@ -15,6 +15,70 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
+	"\/acf-json\/group_58edda27da9e7.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_58edda27da9e7-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_590893a3cfd14.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_590893a3cfd14-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5938106b7d3d4.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5938106b7d3d4-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_59390f57cb43f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_59390f57cb43f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5939109db5a82.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5939109db5a82-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_594a3bc0df74e.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_594a3bc0df74e-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_59539562b170b.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_59539562b170b-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5953cbf6a1708.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5953cbf6a1708-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2961,6 +3025,12 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/page-admin-view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-admin-view.php",
+		"oF": 0
+		},
 	"\/page-messages.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3054,6 +3124,12 @@
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
+	"\/single-pb_charts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-pb_charts.php",
+		"oF": 0
+		},
 	"\/single.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3074,6 +3150,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style.css.map",
+		"oF": 0
+		},
+	"\/template-parts\/content-admin-view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-admin-view.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-contact.php": {
@@ -3146,6 +3228,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-signup.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-single-recent.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-single-recent.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {

@@ -26,7 +26,7 @@ $userData = get_userdata( $userID );
 			<div class="meta span9">
 				<div class="name">
 					<h2><?php echo do_shortcode( '[wpmem_field first_name] [wpmem_field last_name]' ); ?></h2>
-					<h3><?php echo do_shortcode( '[wpmem_field tag_line]' ); ?></h3>
+					<h3><?php echo do_shortcode( '[wpmem_field tag_line]' ); ?> <?php if( current_user_can('manage_options') ): ?> - Site Admin <?php endif; ?></h3>
 				</div>
 
 				<div class="badges">
@@ -40,10 +40,13 @@ $userData = get_userdata( $userID );
 
 		<ul class="tab-links">
 			<li class="active"><a href="<?php echo home_url( '/profile' ); ?>">My Profile</a></li>
-			<li><a href="<?php echo home_url( '/recent' ); ?>">WOD Diary</a></li>
+			<li><a href="<?php echo home_url( '/recent' ); ?>">My Diary</a></li>
 			<li><a href="<?php echo home_url( '/programme' ); ?>">My Programme</a></li>
 			<!-- <li><a href="<?php echo home_url( '/messages' ); ?>">Messages</a></li> -->
 			<li><a href="<?php echo home_url( '/settings' ); ?>">Settings</a></li>
+			<?php if( current_user_can('manage_options') ): ?>
+			<li><a href="<?php echo home_url( '/admin-view' ); ?>">Admin View</a></li>
+			<?php endif; ?>
 			<li class="right"><a href="<?php echo home_url( '/?a=logout' ); ?>">Logout</a></li>
 		</ul>
 
@@ -76,7 +79,7 @@ $userData = get_userdata( $userID );
 				<div class="pb_charts" style="margin-top: 40px;">
 
 					<h2>PB CHART</h2>
-					<p>To update these details please visit the <a href="<?php echo home_url( '/recent '); ?>">WOD Diary</a> and submit a workout summary.</p>
+					<p>To update these details please visit your <a href="<?php echo home_url( '/recent '); ?>">diary</a> page and submit your recent stats. All of your stats will be stored and posted on your diary page each time you add a workout summary, including any stats. Your highest stats will show as your PBs on this page.</p>
 					<br><br>
 
 					<?php
@@ -107,6 +110,7 @@ $userData = get_userdata( $userID );
 						$front_squat[] = get_field( 'front_squat' );
 						$snatch[] = get_field( 'snatch' );
 						$clean_jerk[] = get_field( 'clean_jerk' );
+						$clean[] = get_field( 'clean' );
 						$jerk[] = get_field( 'jerk' );
 						$p_snatch[] = get_field( 'p_snatch' );
 						$p_clean[] = get_field( 'p_clean' );
@@ -213,6 +217,17 @@ $userData = get_userdata( $userID );
 								<?php 
 									if (!empty($clean_jerk)) {
 										echo max($clean_jerk) .'KG';
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							
+							<dt>CLEAN</dt>
+							<dd>
+								<?php 
+									if (!empty($clean)) {
+										echo max($clean) .'KG';
 									} else {
 										echo '--';
 									}

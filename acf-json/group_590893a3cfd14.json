@@ -1,0 +1,318 @@
+{
+    "key": "group_590893a3cfd14",
+    "title": "PB Chart Data",
+    "fields": [
+        {
+            "key": "field_590893a92910c",
+            "label": "DEADLIFT",
+            "name": "deadlift",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894262910d",
+            "label": "BACK SQUAT",
+            "name": "back_squat",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894472910f",
+            "label": "STRICT PRESS",
+            "name": "strict_press",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5908945529110",
+            "label": "BENCH PRESS",
+            "name": "bench_press",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5908945f29111",
+            "label": "PUSH PRESS",
+            "name": "push_press",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5908948829113",
+            "label": "OHS",
+            "name": "ohs",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5908949029114",
+            "label": "FRONT SQUAT",
+            "name": "front_squat",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894a029115",
+            "label": "SNATCH",
+            "name": "snatch",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894a629116",
+            "label": "CLEAN & JERK",
+            "name": "clean_jerk",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5964ea491f78b",
+            "label": "CLEAN",
+            "name": "clean",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894c129117",
+            "label": "JERK",
+            "name": "jerk",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894ce29118",
+            "label": "P. SNATCH",
+            "name": "p_snatch",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894e629119",
+            "label": "P. CLEAN",
+            "name": "p_clean",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_590894f22911a",
+            "label": "P. JERK",
+            "name": "p_jerk",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "KG",
+            "min": "",
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "pb_charts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1499785968
+}

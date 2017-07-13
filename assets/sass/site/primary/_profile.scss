@@ -81,6 +81,58 @@
 
 	#tabbed {
 
+		.logged-in-as {
+			display: none;
+		}
+
+		.postacomment {
+			background: #333333;
+			color: white;
+			text-transform: uppercase;
+			padding: 8px 15px;
+			display: inline-block;
+			line-height: 1;
+			margin-top: 20px;
+		}
+
+		.comment_form {
+			float: left;
+			width: 100%;
+
+			input[type="submit"] {
+				margin-top: 10px;
+				padding: 10px 15px;
+			}
+
+			.comment-list {
+				margin-left: 0;
+			}
+
+			.comment {
+				list-style: none;
+			}
+
+			.form-submit {
+				margin-bottom: 0;
+			}
+
+			.comment-body {
+				margin-top: 0;
+
+				.comment-author {
+					img {
+						float: left;
+						margin-right: 10px;
+					}
+				}
+
+				.comment-metadata {
+					font-size: 12px;
+					margin-top: -7px;
+				}
+			}
+		}
+
 		#gform_confirmation_message_1 {
 			text-align: center;
 			background: #96e3b5;
@@ -173,6 +225,17 @@
 				display:block;
 				position: relative;
 
+				.tabs {
+
+					.tab {
+						display: none;
+
+						&.active {
+							display: block;
+						}
+					}
+				}
+
 				.other_acc_links {
 					display: none;
 
@@ -228,15 +291,20 @@
 				}
 
 				#add_pb, #add_wod {
-					position: fixed;
-					top: 0;
-					left: 0;
-					width: 100%;
-					height: 100%;
-					background: rgba(0,0,0,0.90);
-					overflow: scroll;
-					z-index: 10;
+					position: relative;
 					display: none;
+					background: rgb(0,0,0);
+
+					@include media ($medium-screen-up) {
+						position: fixed;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						background: rgba(0,0,0,0.90);
+						overflow: scroll;
+						z-index: 10;
+					}
 
 					&.show {
 						display: block;
@@ -247,11 +315,19 @@
 						right: 15px;
 						top: 15px;
 						font-size: 26px;
+						display: none;
+
+						@include media ($medium-screen-up) {
+							display: block;
+						}
 					}
 
 					.box {
-						width: 700px;
-						margin: 0 auto;
+
+						@include media ($medium-screen-up) {
+							width: 700px;
+							margin: 0 auto;
+						}
 
 						div#gform_confirmation_message_2 {
 							text-align: center;
@@ -259,13 +335,23 @@
 							text-transform: uppercase;
 						}
 
-						.gform_wrapper ul.gform_fields li.gfield {
-							width: 50%;
-							float: left;
-							clear: none;
-							color: white;
-							text-transform: uppercase;
-							margin-top: 0;
+						.gform_wrapper {
+							margin: 10px 0;
+							max-width: 100%;
+							padding: 0 10px;
+
+							ul.gform_fields li.gfield {
+								width: 100%;
+								float: left;
+								clear: none;
+								color: white;
+								text-transform: uppercase;
+								margin-top: 0;
+
+								@include media ($medium-screen-up) {
+									width: 50%;
+								}
+							}
 						}
 
 						.gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
@@ -277,6 +363,10 @@
 							float: left;
 							clear: none;
 							line-height: 3;
+
+							.ginput_container {
+								margin-top: 0;
+							}
 						}
 						
 						.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input[type=submit] {
@@ -371,7 +461,7 @@
 
 				.update_links {
 					position: relative;
-					top: 12px;
+					top: 1px;
 					right: 0;
 
 					@include media ($medium-screen-up) {
@@ -459,8 +549,8 @@
 
 						.comment-metadata {
 							position: absolute;
-							top: 0;
-							right: 0;
+							top: 30px;
+							right: 25px;
 							font-size: 12px;
 
 							a {
@@ -494,6 +584,7 @@
 
 						&.form-submit {
 							text-align: right;
+							margin-bottom: 0;
 						}
 
 						textarea {

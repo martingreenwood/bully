@@ -36,7 +36,7 @@ $cpts = array(
 		'PB Chart',
 		'PB Charts',
 		'dashicons-chart-bar',
-		array('title'),
+		array('title', 'comments'),
 		true,
 	),
 

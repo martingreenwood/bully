@@ -1,6 +1,6 @@
 			<div class="span4 side">
 			
-				<h2>BULLPEN OPENING TIMES</h2>
+				<h2>OPENING TIMES</h2>
 				<div class="times box">
 					<dl>
 					<?php 
@@ -14,9 +14,9 @@
 					} 
 					?>
 					</dl>
-				</div>
+				</div><br><br>
 			
-				<h2>SPECIAL OFFER</h2>
+				<h2>SPECIAL OFFERS</h2>
 				<?php
 				if( have_rows('special_offers', 'option') ):
 				    while ( have_rows('special_offers', 'option') ) : the_row();

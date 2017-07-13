@@ -2446,6 +2446,36 @@ a {
   /*----- Tabs -----*/
   /*----- Tab Links -----*/
   /*----- Content of Tabs -----*/ }
+  .profile #tabbed .logged-in-as {
+    display: none; }
+  .profile #tabbed .postacomment {
+    background: #333333;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    display: inline-block;
+    line-height: 1;
+    margin-top: 20px; }
+  .profile #tabbed .comment_form {
+    float: left;
+    width: 100%; }
+    .profile #tabbed .comment_form input[type="submit"] {
+      margin-top: 10px;
+      padding: 10px 15px; }
+    .profile #tabbed .comment_form .comment-list {
+      margin-left: 0; }
+    .profile #tabbed .comment_form .comment {
+      list-style: none; }
+    .profile #tabbed .comment_form .form-submit {
+      margin-bottom: 0; }
+    .profile #tabbed .comment_form .comment-body {
+      margin-top: 0; }
+      .profile #tabbed .comment_form .comment-body .comment-author img {
+        float: left;
+        margin-right: 10px; }
+      .profile #tabbed .comment_form .comment-body .comment-metadata {
+        font-size: 12px;
+        margin-top: -7px; }
   .profile #tabbed #gform_confirmation_message_1 {
     text-align: center;
     background: #96e3b5;
@@ -2505,6 +2535,10 @@ a {
   .profile #tabbed .tab-content .tab {
     display: block;
     position: relative; }
+    .profile #tabbed .tab-content .tab .tabs .tab {
+      display: none; }
+      .profile #tabbed .tab-content .tab .tabs .tab.active {
+        display: block; }
     .profile #tabbed .tab-content .tab .other_acc_links {
       display: none; }
       @media screen and (min-width: 600px) {
@@ -2539,51 +2573,69 @@ a {
           font-size: 16px;
           height: 50px; }
     .profile #tabbed .tab-content .tab #add_pb, .profile #tabbed .tab-content .tab #add_wod {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.9);
-      overflow: scroll;
-      z-index: 10;
-      display: none; }
+      position: relative;
+      display: none;
+      background: black; }
+      @media screen and (min-width: 600px) {
+        .profile #tabbed .tab-content .tab #add_pb, .profile #tabbed .tab-content .tab #add_wod {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.9);
+          overflow: scroll;
+          z-index: 10; } }
       .profile #tabbed .tab-content .tab #add_pb.show, .profile #tabbed .tab-content .tab #add_wod.show {
         display: block; }
       .profile #tabbed .tab-content .tab #add_pb .close, .profile #tabbed .tab-content .tab #add_wod .close {
         position: absolute;
         right: 15px;
         top: 15px;
-        font-size: 26px; }
-      .profile #tabbed .tab-content .tab #add_pb .box, .profile #tabbed .tab-content .tab #add_wod .box {
-        width: 700px;
-        margin: 0 auto; }
-        .profile #tabbed .tab-content .tab #add_pb .box div#gform_confirmation_message_2, .profile #tabbed .tab-content .tab #add_wod .box div#gform_confirmation_message_2 {
-          text-align: center;
-          color: white;
-          text-transform: uppercase; }
+        font-size: 26px;
+        display: none; }
+        @media screen and (min-width: 600px) {
+          .profile #tabbed .tab-content .tab #add_pb .close, .profile #tabbed .tab-content .tab #add_wod .close {
+            display: block; } }
+      @media screen and (min-width: 600px) {
+        .profile #tabbed .tab-content .tab #add_pb .box, .profile #tabbed .tab-content .tab #add_wod .box {
+          width: 700px;
+          margin: 0 auto; } }
+      .profile #tabbed .tab-content .tab #add_pb .box div#gform_confirmation_message_2, .profile #tabbed .tab-content .tab #add_wod .box div#gform_confirmation_message_2 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase; }
+      .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper {
+        margin: 10px 0;
+        max-width: 100%;
+        padding: 0 10px; }
         .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper ul.gform_fields li.gfield, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper ul.gform_fields li.gfield {
-          width: 50%;
+          width: 100%;
           float: left;
           clear: none;
           color: white;
           text-transform: uppercase;
           margin-top: 0; }
-        .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']), .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
-          width: 50%; }
-        .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label .gfield_label, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label .gfield_label {
-          width: 50%;
-          float: left;
-          clear: none;
-          line-height: 3; }
-        .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input[type=submit] {
-          width: 100%;
-          background: GOLD;
-          text-transform: uppercase;
-          color: black;
-          border-radius: 0;
-          outline: 0;
-          border: 0; }
+          @media screen and (min-width: 600px) {
+            .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper ul.gform_fields li.gfield, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper ul.gform_fields li.gfield {
+              width: 50%; } }
+      .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']), .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
+        width: 50%; }
+      .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label .gfield_label, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label .gfield_label {
+        width: 50%;
+        float: left;
+        clear: none;
+        line-height: 3; }
+        .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label .gfield_label .ginput_container, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label .gfield_label .ginput_container {
+          margin-top: 0; }
+      .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input[type=submit] {
+        width: 100%;
+        background: GOLD;
+        text-transform: uppercase;
+        color: black;
+        border-radius: 0;
+        outline: 0;
+        border: 0; }
     .profile #tabbed .tab-content .tab .other_acc_links > ul {
       position: absolute;
       top: 0;
@@ -2639,7 +2691,7 @@ a {
       width: 100%; }
     .profile #tabbed .tab-content .tab .update_links {
       position: relative;
-      top: 12px;
+      top: 1px;
       right: 0; }
       @media screen and (min-width: 600px) {
         .profile #tabbed .tab-content .tab .update_links {
@@ -2694,8 +2746,8 @@ a {
         color: #999; }
       .profile #tabbed .tab-content .tab .update .comments-area .comment-metadata {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 30px;
+        right: 25px;
         font-size: 12px; }
         .profile #tabbed .tab-content .tab .update .comments-area .comment-metadata a {
           margin: 0 0 0 5px;
@@ -2714,7 +2766,8 @@ a {
       .profile #tabbed .tab-content .tab .update p {
         margin: 0; }
         .profile #tabbed .tab-content .tab .update p.form-submit {
-          text-align: right; }
+          text-align: right;
+          margin-bottom: 0; }
         .profile #tabbed .tab-content .tab .update p textarea {
           height: 50px;
           resize: none;

@@ -17,7 +17,7 @@
   $('.update_wod').on('click', function(event) {
 	event.preventDefault();
 	var gtarget = $(this).attr('href');
-	$(gtarget).addClass('show');
+	$(gtarget).toggleClass('show');
   });
 
   $('.close').on('click', function(event) {
@@ -25,6 +25,22 @@
 	$(this).parent().removeClass('show');
   });
 
+})(jQuery);
+
+// TABS
+
+(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
 })(jQuery);
 
 
