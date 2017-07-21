@@ -19,7 +19,7 @@ get_header(); ?>
 					<div class="copy">
 						<h3>Are You A</h3>
 						<h3>Competitor</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<p>We offer programming for all levels of athletes, from beginners who want to get their first pull up, to elite athletes aspiring to get to the CrossFit Games.</p>
 						<a href="<?php echo home_url( '/programmes' ); ?>">Sign Up Today</a>
 					</div>
 				</div>
