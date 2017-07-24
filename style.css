@@ -2369,6 +2369,7 @@ a {
 --------------------------------------------------------------*/
 .profile #masthead,
 .recent #masthead,
+.admin-view #masthead,
 .programme #masthead,
 .messages #masthead,
 .settings #masthead {
@@ -2379,6 +2380,7 @@ a {
 
 .profile #primary article,
 .recent #primary article,
+.admin-view #primary article,
 .programme #primary article,
 .messages #primary article,
 .settings #primary article {
