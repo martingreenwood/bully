@@ -2539,6 +2539,9 @@ a {
     position: relative; }
     .profile #tabbed .tab-content .tab .tabs .tab {
       display: none; }
+      .profile #tabbed .tab-content .tab .tabs .tab h2 {
+        border-bottom: 0;
+        padding-bottom: 0; }
       .profile #tabbed .tab-content .tab .tabs .tab.active {
         display: block; }
     .profile #tabbed .tab-content .tab .other_acc_links {
