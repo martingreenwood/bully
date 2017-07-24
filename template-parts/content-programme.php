@@ -61,7 +61,8 @@ $userData = get_userdata( $userID );
 				foreach($user_groups as $user_gro)
 				{
 					$usergroupid = $user_gro->term_taxonomy_id; // Get current user group name
-					$usergroupslug = $user_gro->slug; // Get current user group name
+					$usergroupslug = $user_gro->slug; // Get current user group slug
+					$usergroupname = $user_gro->name; // Get current user group name
 				}
 
 				// echo '<pre>';
@@ -94,6 +95,38 @@ $userData = get_userdata( $userID );
 							$content = str_replace(']]>', ']]&gt;', $content);
 							echo $content;
 							?>
+
+							<div class="group-members">
+
+								<?php
+								$blogusers = get_users( array( 
+									'role' 			=> 'subscriber',
+								) );
+								// Array of WP_User objects.
+								foreach ( $blogusers as $user ):
+									$usergroslug = null;
+
+									$user_groups = wp_get_object_terms($user->ID, 'user-group', array('fields' => 'all_with_object_id'));  // Get user group detail
+									foreach($user_groups as $user_gro)
+									{
+										$usergroslug = $user_gro->slug; // Get current user group name
+									}
+
+									if ($usergroupslug == $usergroslug):
+										?>
+										<div class="group-member">
+											<a href="<?php echo home_url( 'user/?id='.$user->ID ); ?>">
+												<?php echo get_avatar( $user->ID, 69 ); ?>
+											</a>
+										</div>
+										<?php
+									endif;
+								
+								endforeach;
+								?>
+
+							</div>
+
 						</div>
 					</section>
 				</div>

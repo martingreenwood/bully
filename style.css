@@ -2371,6 +2371,7 @@ a {
 ## Profile & More 
 --------------------------------------------------------------*/
 .profile #masthead,
+.user #masthead,
 .recent #masthead,
 .admin-view #masthead,
 .programme #masthead,
@@ -2382,6 +2383,7 @@ a {
   z-index: 0; }
 
 .profile #primary article,
+.user #primary article,
 .recent #primary article,
 .admin-view #primary article,
 .programme #primary article,
@@ -2540,6 +2542,23 @@ a {
   .profile #tabbed .tab-content .tab {
     display: block;
     position: relative; }
+    .profile #tabbed .tab-content .tab .tabs .member_header {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #e5bc19; }
+      .profile #tabbed .tab-content .tab .tabs .member_header img {
+        float: left;
+        width: 15%; }
+      .profile #tabbed .tab-content .tab .tabs .member_header .meta {
+        float: left;
+        width: 85%;
+        margin-top: 55px; }
+        .profile #tabbed .tab-content .tab .tabs .member_header .meta h2, .profile #tabbed .tab-content .tab .tabs .member_header .meta p {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          margin-left: 20px;
+          border: 0;
+          line-height: 1; }
     .profile #tabbed .tab-content .tab .tabs .tab {
       display: none; }
       .profile #tabbed .tab-content .tab .tabs .tab h2 {
@@ -2840,6 +2859,24 @@ a {
   padding-top: 20px; }
   #groups .programme-info section.show {
     display: block; }
+  #groups .programme-info section .group-members {
+    padding: 10px;
+    background: #f9f9f9;
+    margin-top: 20px; }
+    #groups .programme-info section .group-members .group-member {
+      display: inline-block;
+      width: 24.33%;
+      text-align: center; }
+      #groups .programme-info section .group-members .group-member img {
+        display: inline-block;
+        width: 47.4px;
+        text-align: center; }
+      #groups .programme-info section .group-members .group-member p {
+        margin: 0;
+        font-size: 10px;
+        overflow: overlay;
+        width: 100%;
+        padding: 0 10px; }
 
 #groups .group-posts {
   border-top: 2px solid #e5bc19;

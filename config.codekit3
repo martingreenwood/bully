@@ -3061,6 +3061,12 @@
 		"oAP": "\/page-settings.php",
 		"oF": 0
 		},
+	"\/page-user.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-user.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -3234,6 +3240,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-single-recent.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-user-profile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-user-profile.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
