@@ -2123,6 +2123,9 @@ a {
   #primary .map img {
     max-width: inherit !important; }
 
+.comment-subscription-form {
+  display: none; }
+
 /*--------------------------------------------------------------
 ## Home
 --------------------------------------------------------------*/
@@ -2806,6 +2809,8 @@ a {
 
 #groups p {
   margin-bottom: 20px; }
+  #groups p.comment-form-comment {
+    margin-bottom: 0; }
 
 #groups ul {
   margin-bottom: 0; }
