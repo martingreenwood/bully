@@ -81,7 +81,7 @@ $userData = get_userdata( $userID );
 				?>
 				<div class="row programme-info">
 					<header>
-						<h1><?php echo $my_post->post_title; ?> Programme</h1>
+						<h1><a title="Click to toggle programme info &amp; members" href="#" onclick="return: flase;"><?php echo $my_post->post_title; ?> Programme</a></h1>
 					</header>
 					<section>
 						<div class="span4">
@@ -97,6 +97,7 @@ $userData = get_userdata( $userID );
 							?>
 
 							<div class="group-members">
+								<h3><?php echo $usergroupname; ?> Programme Members</h3>
 
 								<?php
 								$blogusers = get_users( array( 
@@ -162,9 +163,7 @@ $userData = get_userdata( $userID );
 							<?php the_content(); ?>
 
 							<div class="cmts">
-
 								<div class="meta">
-									<small><?php comments_number( 'no comments', '1 comment', '% comments' ); ?></small>
 									<div class="comment_form">
 										
 										<?php  
@@ -177,8 +176,8 @@ $userData = get_userdata( $userID );
 									</div>
 									<div class="clear"></div>
 								</div>
-
 							</div>
+
 						</div>
 						<?php
 						endwhile; 

@@ -3194,6 +3194,12 @@
 		"oAP": "\/template-parts\/content-page.php",
 		"oF": 0
 		},
+	"\/template-parts\/content-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-post.php",
+		"oF": 0
+		},
 	"\/template-parts\/content-profile.php": {
 		"ft": 8192,
 		"oA": 2,

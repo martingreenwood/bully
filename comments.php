@@ -40,7 +40,7 @@ if ( post_password_required() ) {
 		<ol class="comment-list">
 			<?php
 				wp_list_comments( array(
-					//'callback' => 'bully_comments',
+					'callback' => 'format_comment',
 				) );
 			?>
 		</ol>

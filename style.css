@@ -2123,6 +2123,80 @@ a {
   #primary .map img {
     max-width: inherit !important; }
 
+.cmts {
+  margin-top: 10px;
+  border-top: 4px solid #eee; }
+
+.comment_form {
+  float: left;
+  width: 100%; }
+  .comment_form input[type="submit"] {
+    margin-top: 20px !important;
+    padding: 13px 15px !important;
+    display: block;
+    width: 100%;
+    float: left;
+    border-radius: 0 !important;
+    background: #e5bc19 !important;
+    color: white !important;
+    border: 0;
+    text-transform: uppercase !important;
+    box-shadow: none;
+    outline: 0; }
+  .comment_form .comment-list {
+    margin: 0 0 20px 0; }
+  .comment_form .comment {
+    list-style: none;
+    padding: 20px; }
+    .comment_form .comment:nth-child(even) {
+      background: #f9f9f9; }
+    .comment_form .comment p:last-of-type {
+      margin-bottom: 0 !important; }
+    .comment_form .comment header {
+      vertical-align: middle;
+      display: inline-block;
+      width: 100%;
+      border-color: #eee !important;
+      padding-bottom: 10px !important;
+      margin-bottom: 10px !important; }
+      .comment_form .comment header p {
+        display: inline-block;
+        margin: 0 !important;
+        vertical-align: top;
+        margin-left: 10px; }
+      .comment_form .comment header img {
+        display: inline-block; }
+  .comment_form .form-submit {
+    margin-bottom: 0 !important; }
+  .comment_form .comment-body {
+    margin-top: 0;
+    background: transparent; }
+    .comment_form .comment-body .comment-author img {
+      float: left;
+      margin-right: 10px; }
+    .comment_form .comment-body .comment-metadata {
+      font-size: 12px;
+      margin-top: -7px; }
+
+#respond #reply-title {
+  background: #333;
+  margin-bottom: 0;
+  padding: 10px;
+  color: white;
+  line-height: 1.6; }
+
+#respond label {
+  display: none; }
+
+#respond #comment {
+  border-radius: 0;
+  border: 1px solid #eee;
+  box-shadow: none;
+  float: left;
+  width: 100%;
+  height: inherit;
+  resize: both; }
+
 .comment-subscription-form {
   display: none; }
 
@@ -2371,6 +2445,7 @@ a {
 ## Profile & More 
 --------------------------------------------------------------*/
 .profile #masthead,
+.single #masthead,
 .user #masthead,
 .recent #masthead,
 .admin-view #masthead,
@@ -2383,6 +2458,7 @@ a {
   z-index: 0; }
 
 .profile #primary article,
+.single #primary article,
 .user #primary article,
 .recent #primary article,
 .admin-view #primary article,
@@ -2463,26 +2539,6 @@ a {
     display: inline-block;
     line-height: 1;
     margin-top: 20px; }
-  .profile #tabbed .comment_form {
-    float: left;
-    width: 100%; }
-    .profile #tabbed .comment_form input[type="submit"] {
-      margin-top: 10px;
-      padding: 10px 15px; }
-    .profile #tabbed .comment_form .comment-list {
-      margin-left: 0; }
-    .profile #tabbed .comment_form .comment {
-      list-style: none; }
-    .profile #tabbed .comment_form .form-submit {
-      margin-bottom: 0; }
-    .profile #tabbed .comment_form .comment-body {
-      margin-top: 0; }
-      .profile #tabbed .comment_form .comment-body .comment-author img {
-        float: left;
-        margin-right: 10px; }
-      .profile #tabbed .comment_form .comment-body .comment-metadata {
-        font-size: 12px;
-        margin-top: -7px; }
   .profile #tabbed #gform_confirmation_message_1 {
     text-align: center;
     background: #96e3b5;
@@ -2739,6 +2795,8 @@ a {
     .profile #tabbed .tab-content .tab .update {
       padding: 20px 0;
       border-bottom: 1px solid #ccc; }
+      .profile #tabbed .tab-content .tab .update .cmts {
+        margin-top: 20px; }
       .profile #tabbed .tab-content .tab .update .date {
         border-bottom: 1px solid #eee; }
         .profile #tabbed .tab-content .tab .update .date small {
@@ -2746,76 +2804,32 @@ a {
           @media screen and (min-width: 600px) {
             .profile #tabbed .tab-content .tab .update .date small {
               display: initial; } }
-      .profile #tabbed .tab-content .tab .update .meta {
-        margin-top: 10px;
-        background: #f9f9f9;
-        padding: 10px;
-        border-top: 4px solid #eee; }
-        .profile #tabbed .tab-content .tab .update .meta small {
-          font-weight: 500;
-          text-transform: uppercase;
-          margin: 0 0 20px 0;
-          display: none; }
-        .profile #tabbed .tab-content .tab .update .meta .comments-load .button {
-          color: white;
-          text-transform: uppercase;
-          font-size: 12px;
-          cursor: pointer;
-          font-weight: 600;
-          background: #333;
-          padding: 5px 10px; }
-      .profile #tabbed .tab-content .tab .update .comments-area .comment {
-        position: relative;
-        margin-bottom: 5px; }
-      .profile #tabbed .tab-content .tab .update .comments-area .commenter {
-        font-weight: 600; }
-      .profile #tabbed .tab-content .tab .update .comments-area time {
-        color: #999; }
-      .profile #tabbed .tab-content .tab .update .comments-area .comment-metadata {
-        position: absolute;
-        top: 30px;
-        right: 25px;
-        font-size: 12px; }
-        .profile #tabbed .tab-content .tab .update .comments-area .comment-metadata a {
-          margin: 0 0 0 5px;
-          color: #999; }
-      .profile #tabbed .tab-content .tab .update .comments-area .comment-list {
-        margin: 0 0 20px 0; }
-      .profile #tabbed .tab-content .tab .update .comments-area img, .profile #tabbed .tab-content .tab .update .comments-area p {
-        display: inline-block;
-        margin-right: 5px;
-        vertical-align: middle; }
-      .profile #tabbed .tab-content .tab .update .comments-area p.comment-form-comment {
-        width: 100%;
+      .profile #tabbed .tab-content .tab .update p:last-of-type {
         margin: 0; }
-      .profile #tabbed .tab-content .tab .update .comment-reply-title, .profile #tabbed .tab-content .tab .update .logged-in-as, .profile #tabbed .tab-content .tab .update label, .profile #tabbed .tab-content .tab .update .comments-title {
-        display: none !important; }
-      .profile #tabbed .tab-content .tab .update p {
-        margin: 0; }
-        .profile #tabbed .tab-content .tab .update p.form-submit {
-          text-align: right;
-          margin-bottom: 0; }
-        .profile #tabbed .tab-content .tab .update p textarea {
-          height: 50px;
-          resize: none;
-          display: block;
-          box-shadow: none;
-          border-color: #eee;
-          border-radius: 0; }
-        .profile #tabbed .tab-content .tab .update p button, .profile #tabbed .tab-content .tab .update p input[type="button"], .profile #tabbed .tab-content .tab .update p input[type="reset"], .profile #tabbed .tab-content .tab .update p input[type="submit"] {
-          font-size: 12px;
-          text-transform: uppercase;
-          background: #ffffff;
-          padding: 6px 12px;
-          font-weight: 500;
-          border-radius: 0;
-          border-color: #ddd;
-          margin-top: -2px;
-          color: #666; }
-          .profile #tabbed .tab-content .tab .update p button:hover, .profile #tabbed .tab-content .tab .update p input[type="button"]:hover, .profile #tabbed .tab-content .tab .update p input[type="reset"]:hover, .profile #tabbed .tab-content .tab .update p input[type="submit"]:hover {
-            border-color: #e5bc19;
-            background: #e5bc19;
-            color: white; }
+      .profile #tabbed .tab-content .tab .update p.form-submit {
+        text-align: right;
+        margin-bottom: 0; }
+      .profile #tabbed .tab-content .tab .update p textarea {
+        height: 50px;
+        resize: none;
+        display: block;
+        box-shadow: none;
+        border-color: #eee;
+        border-radius: 0; }
+      .profile #tabbed .tab-content .tab .update p button, .profile #tabbed .tab-content .tab .update p input[type="button"], .profile #tabbed .tab-content .tab .update p input[type="reset"], .profile #tabbed .tab-content .tab .update p input[type="submit"] {
+        font-size: 12px;
+        text-transform: uppercase;
+        background: #ffffff;
+        padding: 6px 12px;
+        font-weight: 500;
+        border-radius: 0;
+        border-color: #ddd;
+        margin-top: -2px;
+        color: #666; }
+        .profile #tabbed .tab-content .tab .update p button:hover, .profile #tabbed .tab-content .tab .update p input[type="button"]:hover, .profile #tabbed .tab-content .tab .update p input[type="reset"]:hover, .profile #tabbed .tab-content .tab .update p input[type="submit"]:hover {
+          border-color: #e5bc19;
+          background: #e5bc19;
+          color: white; }
 
 #groups h1 {
   line-height: 1;
@@ -2877,24 +2891,19 @@ a {
     border-bottom: 2px solid #e5bc19;
     padding-bottom: 20px;
     margin-bottom: 20px; }
-    #groups .group-posts .group-post .meta {
-      margin-top: 10px;
-      background: #f9f9f9;
-      padding: 10px;
-      border-top: 4px solid #eee; }
-      #groups .group-posts .group-post .meta small {
-        font-weight: 500;
-        text-transform: uppercase;
-        margin: 0 0 20px 0;
-        display: none; }
-      #groups .group-posts .group-post .meta .comments-load .button {
-        color: white;
-        text-transform: uppercase;
-        font-size: 12px;
-        cursor: pointer;
-        font-weight: 600;
-        background: #333;
-        padding: 5px 10px; }
+    #groups .group-posts .group-post .meta small {
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 0 0 20px 0;
+      display: none; }
+    #groups .group-posts .group-post .meta .comments-load .button {
+      color: white;
+      text-transform: uppercase;
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 600;
+      background: #333;
+      padding: 5px 10px; }
 
 /*--------------------------------------------------------------
 ## Asides

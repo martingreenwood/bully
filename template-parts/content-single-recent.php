@@ -62,7 +62,8 @@ $userData = get_userdata( $userID );
 
 			
 				<div class="update ajaxie" id="post-<?php echo get_the_id(); ?>">
-					<h6 class="date"><?php the_author(); ?>: <small style="color: #999; font-weight: 300;"><?php echo get_the_time( ); ?>, <?php echo get_the_date(); ?><?php if (user_can( $userID, 'edit_posts' )): edit_post_link( ' | edit' ); endif; ?></small></h6>
+					<h6 class="date"><?php the_author(); ?>: <small style="color: #999; font-weight: 300;"><?php echo get_the_time( ); ?>, <?php echo get_the_date(); ?></small></h6>
+					
 					<?php the_content(); ?>
 
 					<?php if ( get_post_type() == 'pb_charts' ): ?>
@@ -276,11 +277,6 @@ $userData = get_userdata( $userID );
 
 		</div>
 
-
-	</div>
-
-	<div class="entry-content">
-		<?php the_content(); ?>
 	</div>
 
 </article>

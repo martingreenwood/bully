@@ -179,6 +179,46 @@ function my_forgot_link( $str ) {
     return 'http://my.bullpenfitness.co.uk/reset-password/';
 }
 
+
+function format_comment($comment, $args, $depth) {
+
+	$GLOBALS['comment'] = $comment; ?>
+
+	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
+
+		<div class="table">
+			
+			<div class="cell middle">
+
+				<?php 
+					$author = get_comment_author( $comment_ID );
+					$the_user = get_user_by('email', $author);
+					$the_user_id = $the_user->ID;
+				?>
+
+				<header>
+					<a href="<?php echo home_url( 'user/?id='. $the_user_id ); ?>">
+						<?php echo get_avatar( get_comment_author_email( $comment_ID ), 48 ); ?>
+						<p><strong><?php printf(__('%s'), get_comment_author_link()) ?></strong><br>
+						commented on <?php printf(__('%1$s'), get_comment_date(), get_comment_time()) ?></p>
+					</a>
+				</header>
+
+				
+				<?php if ($comment->comment_approved == '0') : ?>
+				<em><?php _e('Your comment is awaiting moderation.') ?></em><br>
+				<?php endif; ?>
+
+				<?php comment_text(); ?>
+
+			</div>
+
+		</div>
+
+	</li>
+        
+<?php }
+
 /**
  * Custom posts types
  */

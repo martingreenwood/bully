@@ -257,7 +257,21 @@ $userData = get_userdata( $userID );
 						</div>
 						<?php endif; ?>
 
-						<a class="postacomment" href="<?php the_permalink(); ?>">Post a Comment</a>
+						<div class="cmts">
+							<div class="meta">
+								<div class="comment_form">
+									
+									<?php  
+									// If comments are open or we have at least one comment, load up the comment template.
+									if ( comments_open() || get_comments_number() ) :
+										echo comments_template();
+									endif;
+									?>
+
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
 
 					</div>
 					<?php
