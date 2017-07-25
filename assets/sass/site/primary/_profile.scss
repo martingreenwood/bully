@@ -714,21 +714,11 @@
 
 				.group-member {
 					display: inline-block;
-					width: 24.33%;
+					width: 47.4px;
 					text-align: center;
 
 					img {
-						display: inline-block;
-						width: 47.4px;
-						text-align: center;
-					}
-
-					p {
-						margin: 0;
-						font-size: 10px;
-						overflow: overlay;
-						width: 100%;
-						padding: 0 10px;
+						display: block;
 					}
 				}
 			}
