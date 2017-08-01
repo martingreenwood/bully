@@ -132,21 +132,21 @@ $userData = get_userdata( $userID );
 						$p_clean[] = get_field( 'p_clean' );
 						$p_jerk[] = get_field( 'p_jerk' );
 
-						$fran = get_field( 'fran' );
-						$grace = get_field( 'grace' );
-						$elizabeth = get_field( 'elizabeth' );
-						$karen = get_field( 'karen' );
-						$diane = get_field( 'diane' );
+						$fran[] = get_field( 'fran' );
+						$grace[] = get_field( 'grace' );
+						$elizabeth[] = get_field( 'elizabeth' );
+						$karen[] = get_field( 'karen' );
+						$diane[] = get_field( 'diane' );
 						
-						$row500 = get_field( 'row500' );
-						$row2000 = get_field( 'row2000' );
-						$row5000 = get_field( 'row5000' );
+						$row500[] = get_field( 'row500' );
+						$row2000[] = get_field( 'row2000' );
+						$row5000[] = get_field( 'row5000' );
 						
-						$maxpullups = get_field( 'maxpullups' );
-						$maxhandstandpushups = get_field( 'maxhandstandpushups' );
-						$maxtoestobar = get_field( 'maxtoestobar' );
-						$maxringmuscleups = get_field( 'maxringmuscleups' );
-						$maxbarmuscleups = get_field( 'maxbarmuscleups' );
+						$maxpullups[] = get_field( 'maxpullups' );
+						$maxhandstandpushups[] = get_field( 'maxhandstandpushups' );
+						$maxtoestobar[] = get_field( 'maxtoestobar' );
+						$maxringmuscleups[] = get_field( 'maxringmuscleups' );
+						$maxbarmuscleups[] = get_field( 'maxbarmuscleups' );
 
 					endwhile;
 					wp_reset_query(); wp_reset_postdata();
