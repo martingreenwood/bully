@@ -98,6 +98,22 @@ $userData = get_userdata( $userID );
 						$p_snatch = array();
 						$p_clean = array();
 						$p_jerk = array();
+						
+						$fran = array();
+						$grace = array();
+						$elizabeth = array();
+						$karen = array();
+						$diane = array();
+						
+						$row500 = array();
+						$row2000 = array();
+						$row5000 = array();
+						
+						$maxpullups = array();
+						$maxhandstandpushups = array();
+						$maxtoestobar = array();
+						$maxringmuscleups = array();
+						$maxbarmuscleups = array();
 
 					while ( $loop->have_posts() ) : $loop->the_post();
 
@@ -116,18 +132,34 @@ $userData = get_userdata( $userID );
 						$p_clean[] = get_field( 'p_clean' );
 						$p_jerk[] = get_field( 'p_jerk' );
 
+						$fran = get_field( 'fran' );
+						$grace = get_field( 'grace' );
+						$elizabeth = get_field( 'elizabeth' );
+						$karen = get_field( 'karen' );
+						$diane = get_field( 'diane' );
+						
+						$row500 = get_field( 'row500' );
+						$row2000 = get_field( 'row2000' );
+						$row5000 = get_field( 'row5000' );
+						
+						$maxpullups = get_field( 'maxpullups' );
+						$maxhandstandpushups = get_field( 'maxhandstandpushups' );
+						$maxtoestobar = get_field( 'maxtoestobar' );
+						$maxringmuscleups = get_field( 'maxringmuscleups' );
+						$maxbarmuscleups = get_field( 'maxbarmuscleups' );
+
 					endwhile;
 					wp_reset_query(); wp_reset_postdata();
 					?>
 
-					<div class="base pb_chart">
-						
+					<div class="base pb_chart weight">
+						<h2>WEIGHTLIGTING (KG)</h2>
 						<dl>
 							<dt>DEADLIFT</dt>
 							<dd>
 								<?php 
 									if (!empty($deadlift)) {
-										echo max($deadlift) .'KG';
+										echo max($deadlift);
 									} else {
 										echo '--';
 									}
@@ -138,7 +170,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($back_squat)) {
-										echo max($back_squat) .'KG';
+										echo max($back_squat);
 									} else {
 										echo '--';
 									}
@@ -149,7 +181,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($strict_press)) {
-										echo max($strict_press) .'KG';
+										echo max($strict_press);
 									} else {
 										echo '--';
 									}
@@ -160,7 +192,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($bench_press)) {
-										echo max($bench_press) .'KG';
+										echo max($bench_press);
 									} else {
 										echo '--';
 									}
@@ -171,7 +203,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($push_press)) {
-										echo max($push_press) .'KG';
+										echo max($push_press);
 									} else {
 										echo '--';
 									}
@@ -183,7 +215,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($ohs)) {
-										echo max($ohs) .'KG';
+										echo max($ohs);
 									} else {
 										echo '--';
 									}
@@ -194,7 +226,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($front_squat)) {
-										echo max($front_squat) .'KG';
+										echo max($front_squat);
 									} else {
 										echo '--';
 									}
@@ -205,7 +237,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($snatch)) {
-										echo max($snatch) .'KG';
+										echo max($snatch);
 									} else {
 										echo '--';
 									}
@@ -216,7 +248,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($clean_jerk)) {
-										echo max($clean_jerk) .'KG';
+										echo max($clean_jerk);
 									} else {
 										echo '--';
 									}
@@ -227,7 +259,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($clean)) {
-										echo max($clean) .'KG';
+										echo max($clean);
 									} else {
 										echo '--';
 									}
@@ -240,7 +272,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($jerk)) {
-										echo max($jerk) .'KG';
+										echo max($jerk);
 									} else {
 										echo '--';
 									}
@@ -251,7 +283,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($p_snatch)) {
-										echo max($p_snatch) .'KG';
+										echo max($p_snatch);
 									} else {
 										echo '--';
 									}
@@ -262,7 +294,7 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($p_clean)) {
-										echo max($p_clean) .'KG';
+										echo max($p_clean);
 									} else {
 										echo '--';
 									}
@@ -273,17 +305,157 @@ $userData = get_userdata( $userID );
 							<dd>
 								<?php 
 									if (!empty($p_jerk)) {
-										echo max($p_jerk) .'KG';
+										echo max($p_jerk);
 									} else {
 										echo '--';
 									}
 								?>
 							</dd>
 						</dl>
-
-						<div class="clear"></div>
 					</div>
 
+					<div class="base pb_chart bench">
+						<h2>BENCHMARKS (MM:SS)</h2>
+						<dl>
+							<dt>FRAN</dt>
+							<dd>
+								<?php 
+									if (!empty($fran)) {
+										echo max($fran);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>GRACE</dt>
+							<dd>
+								<?php 
+									if (!empty($grace)) {
+										echo max($grace);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+						</dl>
+						<dl>
+							<dt>ELIZABETH</dt>
+							<dd>
+								<?php 
+									if (!empty($elizabeth)) {
+										echo max($elizabeth);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>KAREN</dt>
+							<dd>
+								<?php 
+									if (!empty($karen)) {
+										echo max($karen);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+						</dl>
+					</div>
+
+					<div class="base pb_chart cond">
+						<h2>CONDITIONING (MM:SS)</h2>
+						<dl>
+							<dt>Row 500m</dt>
+							<dd>
+								<?php 
+									if (!empty($row500)) {
+										echo max($row500);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>Row 2000m</dt>
+							<dd>
+								<?php 
+									if (!empty($row2000)) {
+										echo max($row2000);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>Row 5000m</dt>
+							<dd>
+								<?php 
+									if (!empty($row5000)) {
+										echo max($row5000);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+						</dl>
+					</div>
+
+					<div class="base pb_chart gym">
+						<h2>GYMNASTIC</h2>
+						<dl>
+							<dt>max pull ups</dt>
+							<dd>
+								<?php 
+									if (!empty($maxpullups)) {
+										echo max($maxpullups);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>max handstand push ups</dt>
+							<dd>
+								<?php 
+									if (!empty($maxhandstandpushups)) {
+										echo max($maxhandstandpushups);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>max toes to bar</dt>
+							<dd>
+								<?php 
+									if (!empty($maxtoestobar)) {
+										echo max($maxtoestobar);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+						</dl>
+						<dl>
+							<dt>max ring muscle ups</dt>
+							<dd>
+								<?php 
+									if (!empty($maxringmuscleups)) {
+										echo max($maxringmuscleups);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+							<dt>max bar muscle ups</dt>
+							<dd>
+								<?php 
+									if (!empty($maxbarmuscleups)) {
+										echo max($maxbarmuscleups);
+									} else {
+										echo '--';
+									}
+								?>
+							</dd>
+						</dl>
+					</div>
+					<div class="clear"></div>
 				</div>
 
 				<div class="other_acc_links">

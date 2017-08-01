@@ -84,6 +84,7 @@ $userData = get_userdata( $userID );
 							<ul class="tab-links">
 								<li><a href="#memberprofile">Profile</a></li>
 								<li><a href="#diary">Diary</a></li>
+								<li><a href="<?php echo fep_query_url('newmessage', array('to' => $memberID ) ); ?>">Send Message</a></li>
 							</ul>
 
 							<div class="tab-content">

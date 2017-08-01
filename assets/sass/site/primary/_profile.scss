@@ -242,9 +242,19 @@
 					margin-bottom: 20px;
 
 					.pb_chart {
+						float: left;
+						width: 100%;
+						margin-bottom: 20px;
 
 						.close {
 
+						}
+
+						h2 {
+							margin-top: 15px;
+							display: block;
+							margin-bottom: 10px;
+							padding-bottom: 0;
 						}
 
 						dl {
@@ -277,6 +287,26 @@
 								padding: 10px 0;
 								font-size: 16px;
 								height: 50px;
+							}
+						}
+
+						&.gym, &.bench {
+
+							dl {
+
+								@include media ($medium-screen-up) {
+									width: 48.6%;
+								}
+							}
+						}
+
+						&.cond {
+
+							dl {
+
+								@include media ($medium-screen-up) {
+									width: 100%;
+								}
 							}
 						}
 					}
@@ -343,6 +373,13 @@
 								@include media ($medium-screen-up) {
 									width: 50%;
 								}
+
+								&.gsection {
+									@include media ($medium-screen-up) {
+										width: 100%;
+										border: 0;
+									}
+								}
 							}
 						}
 
@@ -354,11 +391,11 @@
 							width: 50%;
 							float: left;
 							clear: none;
-							line-height: 3;
+							line-height: 1;
+						}
 
-							.ginput_container {
-								margin-top: 0;
-							}
+						.gform_wrapper .top_label div.ginput_container {
+							margin-top: 0;
 						}
 						
 						.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input[type=submit] {

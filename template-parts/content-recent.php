@@ -73,7 +73,7 @@ $userData = get_userdata( $userID );
 					<a class="close" href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 					<div class="table"><div class="cell middle">
 						<div class="box">
-							<?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="false"]' ); ?>
+							<?php echo do_shortcode( '[gravityform id="4" title="false" description="false" ajax="false"]' ); ?>
 						</div>
 					</div></div>
 				</div>
@@ -93,13 +93,14 @@ $userData = get_userdata( $userID );
 
 						<div class="pb_charts">
 							
-							<div class="base pb_chart">
+							<div class="base pb_chart weight">
+							<h2>WEIGHTLIFTING (KG)</h2>
 							<dl>
 								<dt>DEADLIFT</dt>
 								<dd>
 									<?php 
 										if (get_field( 'deadlift' )) {
-											echo get_field( 'deadlift' ) . 'KG';
+											echo get_field( 'deadlift' );
 										} else {
 											echo '--';
 										}
@@ -110,7 +111,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'back_squat' )) {
-											echo get_field( 'back_squat' ) .'KG';
+											echo get_field( 'back_squat' );
 										} else {
 											echo '--';
 										}
@@ -121,7 +122,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'strict_press' )) {
-											echo get_field( 'strict_press' ) .'KG';
+											echo get_field( 'strict_press' );
 										} else {
 											echo '--';
 										}
@@ -132,7 +133,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'bench_press' )) {
-											echo get_field( 'bench_press' ) .'KG';
+											echo get_field( 'bench_press' );
 										} else {
 											echo '--';
 										}
@@ -143,7 +144,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'push_press' )) {
-											echo get_field( 'push_press' ) .'KG';
+											echo get_field( 'push_press' );
 										} else {
 											echo '--';
 										}
@@ -155,7 +156,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'ohs' )) {
-											echo get_field( 'ohs' ) .'KG';
+											echo get_field( 'ohs' );
 										} else {
 											echo '--';
 										}
@@ -166,7 +167,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'front_squat' )) {
-											echo get_field( 'front_squat' ) .'KG';
+											echo get_field( 'front_squat' );
 										} else {
 											echo '--';
 										}
@@ -177,7 +178,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'snatch' )) {
-											echo get_field( 'snatch' ) .'KG';
+											echo get_field( 'snatch' );
 										} else {
 											echo '--';
 										}
@@ -188,7 +189,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'clean_jerk' )) {
-											echo get_field( 'clean_jerk' ) .'KG';
+											echo get_field( 'clean_jerk' );
 										} else {
 											echo '--';
 										}
@@ -199,7 +200,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'clean' )) {
-											echo get_field( 'clean' ) .'KG';
+											echo get_field( 'clean' );
 										} else {
 											echo '--';
 										}
@@ -211,7 +212,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'jerk' )) {
-											echo get_field( 'jerk' ) .'KG';
+											echo get_field( 'jerk' );
 										} else {
 											echo '--';
 										}
@@ -222,7 +223,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_snatch' )) {
-											echo get_field( 'p_snatch' ) .'KG';
+											echo get_field( 'p_snatch' );
 										} else {
 											echo '--';
 										}
@@ -233,7 +234,7 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_clean' )) {
-											echo get_field( 'p_clean' ) .'KG';
+											echo get_field( 'p_clean' );
 										} else {
 											echo '--';
 										}
@@ -244,13 +245,155 @@ $userData = get_userdata( $userID );
 								<dd>
 									<?php 
 										if (get_field( 'p_jerk' )) {
-											echo get_field( 'p_jerk' ) .'KG';
+											echo get_field( 'p_jerk' );
 										} else {
 											echo '--';
 										}
 									?>
 								</dd>
 							</dl>
+							</div>
+
+							<div class="base pb_chart bench">
+								<h2>BENCHMARKS (MM:SS)</h2>
+								<dl>
+									<dt>FRAN</dt>
+									<dd>
+										<?php 
+											if (get_field( 'fran' )) {
+												echo get_field( 'fran' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>GRACE</dt>
+									<dd>
+										<?php 
+											if (get_field( 'grace' )) {
+												echo get_field( 'grace' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+								</dl>
+								<dl>
+									<dt>ELIZABETH</dt>
+									<dd>
+										<?php 
+											if (get_field( 'elizabeth' )) {
+												echo get_field( 'elizabeth' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>KAREN</dt>
+									<dd>
+										<?php 
+											if (get_field( 'karen' )) {
+												echo get_field( 'karen' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+								</dl>
+							</div>
+
+							<div class="base pb_chart cond">
+								<h2>CONDITIONING (MM:SS)</h2>
+								<dl>
+									<dt>Row 500m</dt>
+									<dd>
+										<?php 
+											if (get_field( 'row500' )) {
+												echo get_field( 'row500' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>Row 2000m</dt>
+									<dd>
+										<?php 
+											if (get_field( 'row2000' )) {
+												echo get_field( 'row2000' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>Row 5000m</dt>
+									<dd>
+										<?php 
+											if (get_field( 'row5000' )) {
+												echo get_field( 'row5000' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+								</dl>
+							</div>
+							
+							<div class="base pb_chart gym">
+								<h2>GYMNASTIC</h2>
+								<dl>
+									<dt>max pull ups</dt>
+									<dd>
+										<?php 
+											if (get_field( 'maxpullups' )) {
+												echo get_field( 'maxpullups' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>max handstand push ups</dt>
+									<dd>
+										<?php 
+											if (get_field( 'maxhandstandpushups' )) {
+												echo get_field( 'maxhandstandpushups' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>max toes to bar</dt>
+									<dd>
+										<?php 
+											if (get_field( 'maxtoestobar' )) {
+												echo get_field( 'maxtoestobar' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+								</dl>
+								<dl>
+									<dt>max ring muscle ups</dt>
+									<dd>
+										<?php 
+											if (get_field( 'maxringmuscleups' )) {
+												echo get_field( 'maxringmuscleups' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+									<dt>max bar muscle ups</dt>
+									<dd>
+										<?php 
+											if (get_field( 'maxbarmuscleups' )) {
+												echo get_field( 'maxbarmuscleups' );
+											} else {
+												echo '--';
+											}
+										?>
+									</dd>
+								</dl>
 							</div>
 
 							<div class="clear"></div>

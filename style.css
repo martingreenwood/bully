@@ -2124,8 +2124,7 @@ a {
     max-width: inherit !important; }
 
 .cmts {
-  margin-top: 10px;
-  border-top: 4px solid #eee; }
+  margin-top: 10px; }
 
 .comment_form {
   float: left;
@@ -2631,30 +2630,45 @@ a {
       margin-top: 0;
       position: relative;
       margin-bottom: 20px; }
-      .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
+      .profile #tabbed .tab-content .tab .pb_charts .pb_chart {
+        float: left;
         width: 100%;
-        margin-right: 20px;
-        margin-top: 0; }
+        margin-bottom: 20px; }
+        .profile #tabbed .tab-content .tab .pb_charts .pb_chart h2 {
+          margin-top: 15px;
+          display: block;
+          margin-bottom: 10px;
+          padding-bottom: 0; }
+        .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
+          width: 100%;
+          margin-right: 20px;
+          margin-top: 0; }
+          @media screen and (min-width: 600px) {
+            .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
+              width: 31.4%; } }
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl:last-of-type {
+            margin-right: 0; }
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dd {
+            width: 30%;
+            border-bottom: 1px solid #e5bc19;
+            line-height: 2;
+            padding: 10px 0;
+            font-size: 16px;
+            height: 50px;
+            font-weight: 600;
+            text-align: right; }
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dt {
+            width: 70%;
+            border-bottom: 1px solid #e5bc19;
+            padding: 10px 0;
+            font-size: 16px;
+            height: 50px; }
         @media screen and (min-width: 600px) {
-          .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl {
-            width: 31.4%; } }
-        .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl:last-of-type {
-          margin-right: 0; }
-        .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dd {
-          width: 30%;
-          border-bottom: 1px solid #e5bc19;
-          line-height: 2;
-          padding: 10px 0;
-          font-size: 16px;
-          height: 50px;
-          font-weight: 600;
-          text-align: right; }
-        .profile #tabbed .tab-content .tab .pb_charts .pb_chart dl dt {
-          width: 70%;
-          border-bottom: 1px solid #e5bc19;
-          padding: 10px 0;
-          font-size: 16px;
-          height: 50px; }
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart.gym dl, .profile #tabbed .tab-content .tab .pb_charts .pb_chart.bench dl {
+            width: 48.6%; } }
+        @media screen and (min-width: 600px) {
+          .profile #tabbed .tab-content .tab .pb_charts .pb_chart.cond dl {
+            width: 100%; } }
     .profile #tabbed .tab-content .tab #add_pb, .profile #tabbed .tab-content .tab #add_wod {
       position: relative;
       display: none;
@@ -2702,15 +2716,19 @@ a {
           @media screen and (min-width: 600px) {
             .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper ul.gform_fields li.gfield, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper ul.gform_fields li.gfield {
               width: 50%; } }
+          @media screen and (min-width: 600px) {
+            .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper ul.gform_fields li.gfield.gsection, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper ul.gform_fields li.gfield.gsection {
+              width: 100%;
+              border: 0; } }
       .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']), .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
         width: 50%; }
       .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label .gfield_label, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label .gfield_label {
         width: 50%;
         float: left;
         clear: none;
-        line-height: 3; }
-        .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label .gfield_label .ginput_container, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label .gfield_label .ginput_container {
-          margin-top: 0; }
+        line-height: 1; }
+      .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .top_label div.ginput_container, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .top_label div.ginput_container {
+        margin-top: 0; }
       .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_pb .box .gform_wrapper .gform_page_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input.button, .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_footer input[type=submit], .profile #tabbed .tab-content .tab #add_wod .box .gform_wrapper .gform_page_footer input[type=submit] {
         width: 100%;
         background: GOLD;

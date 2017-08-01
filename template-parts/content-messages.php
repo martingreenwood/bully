@@ -56,7 +56,7 @@ $userData = get_userdata( $userID );
 
 				<div id="tab1" class="tab active">
 
-					Message Data
+					<?php the_content( ); ?>
 					
 				</div>
 
@@ -67,10 +67,6 @@ $userData = get_userdata( $userID );
 		</div>
 
 
-	</div>
-
-	<div class="entry-content">
-		<?php the_content(); ?>
 	</div>
 
 </article>
