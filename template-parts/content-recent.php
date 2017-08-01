@@ -64,7 +64,7 @@ $userData = get_userdata( $userID );
 					<a class="close" href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 					<div class="table"><div class="cell middle">
 						<div class="box">
-							<?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="false"]'); ?>
+							<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="false"]'); ?>
 						</div>
 					</div></div>
 				</div>
@@ -73,7 +73,7 @@ $userData = get_userdata( $userID );
 					<a class="close" href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 					<div class="table"><div class="cell middle">
 						<div class="box">
-							<?php echo do_shortcode( '[gravityform id="4" title="false" description="false" ajax="false"]' ); ?>
+							<?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="false"]' ); ?>
 						</div>
 					</div></div>
 				</div>
