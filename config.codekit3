@@ -7,9 +7,10 @@
 		"uuidString": "784E2474-D17D-4C2C-984F-F9D8D6568706"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26261",
 "files": {
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.php",
@@ -80,12 +81,14 @@
 		"oS": 1
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.eot",
@@ -102,18 +105,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Bold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Inline.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.eot",
@@ -130,18 +136,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Inline.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Inline.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Inline.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Light.eot",
@@ -158,18 +167,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Light.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Light.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Medium.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.eot",
@@ -186,18 +198,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Medium.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Medium.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Medium.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Thin.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.eot",
@@ -214,18 +229,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Thin.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Thin.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Thin.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Titling.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.eot",
@@ -242,12 +260,14 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Titling.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Neutra2Display-Titling.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Neutra2Display-Titling.woff",
@@ -413,6 +433,7 @@
 		},
 	"\/assets\/js\/custom-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/custom-min-min.js",
@@ -422,6 +443,7 @@
 		},
 	"\/assets\/js\/custom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/custom-min.js",
@@ -431,6 +453,7 @@
 		},
 	"\/assets\/js\/customizer-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/customizer-min-min.js",
@@ -440,6 +463,7 @@
 		},
 	"\/assets\/js\/customizer.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/customizer-min.js",
@@ -449,6 +473,7 @@
 		},
 	"\/assets\/js\/navigation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/navigation-min.js",
@@ -458,6 +483,7 @@
 		},
 	"\/assets\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/skip-link-focus-fix-min.js",
@@ -2303,6 +2329,7 @@
 		"oS": 0
 		},
 	"\/assets\/textboxio\/resources\/flash\/textboxpaste.swf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/textboxio\/resources\/flash\/textboxpaste.swf",
@@ -2310,6 +2337,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ar.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ar-min.js",
@@ -2319,6 +2347,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ca.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ca-min.js",
@@ -2328,6 +2357,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_cs.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_cs-min.js",
@@ -2337,6 +2367,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_da.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_da-min.js",
@@ -2346,6 +2377,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_de.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_de-min.js",
@@ -2355,6 +2387,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_el.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_el-min.js",
@@ -2364,6 +2397,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_en.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_en-min.js",
@@ -2373,6 +2407,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_es.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_es-min.js",
@@ -2382,6 +2417,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_fa.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_fa-min.js",
@@ -2391,6 +2427,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_fi.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_fi-min.js",
@@ -2400,6 +2437,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_fr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_fr-min.js",
@@ -2409,6 +2447,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_he.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_he-min.js",
@@ -2418,6 +2457,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_hr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_hr-min.js",
@@ -2427,6 +2467,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_hu.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_hu-min.js",
@@ -2436,6 +2477,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_it.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_it-min.js",
@@ -2445,6 +2487,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ja.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ja-min.js",
@@ -2454,6 +2497,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_kk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_kk-min.js",
@@ -2463,6 +2507,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ko.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ko-min.js",
@@ -2472,6 +2517,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_nb.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_nb-min.js",
@@ -2481,6 +2527,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_nl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_nl-min.js",
@@ -2490,6 +2537,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_pl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_pl-min.js",
@@ -2499,6 +2547,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_pt.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_pt-min.js",
@@ -2508,6 +2557,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_pt_pt.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_pt_pt-min.js",
@@ -2517,6 +2567,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ro.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ro-min.js",
@@ -2526,6 +2577,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_ru.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_ru-min.js",
@@ -2535,6 +2587,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_sk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_sk-min.js",
@@ -2544,6 +2597,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_sl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_sl-min.js",
@@ -2553,6 +2607,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_sv.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_sv-min.js",
@@ -2562,6 +2617,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_th.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_th-min.js",
@@ -2571,6 +2627,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_tr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_tr-min.js",
@@ -2580,6 +2637,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_uk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_uk-min.js",
@@ -2589,6 +2647,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_zh.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_zh-min.js",
@@ -2598,6 +2657,7 @@
 		},
 	"\/assets\/textboxio\/resources\/html\/help_zh_tw.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/html\/help_zh_tw-min.js",
@@ -2606,6 +2666,7 @@
 		"tS": 0
 		},
 	"\/assets\/textboxio\/resources\/html\/textbox-licenses.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/textboxio\/resources\/html\/textbox-licenses.html",
@@ -2613,6 +2674,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ar.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ar-min.js",
@@ -2622,6 +2684,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ca.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ca-min.js",
@@ -2631,6 +2694,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_cs.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_cs-min.js",
@@ -2640,6 +2704,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_da.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_da-min.js",
@@ -2649,6 +2714,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_de.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_de-min.js",
@@ -2658,6 +2724,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_el.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_el-min.js",
@@ -2667,6 +2734,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_en.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_en-min.js",
@@ -2676,6 +2744,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_es.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_es-min.js",
@@ -2685,6 +2754,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_fa.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_fa-min.js",
@@ -2694,6 +2764,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_fi.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_fi-min.js",
@@ -2703,6 +2774,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_fr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_fr-min.js",
@@ -2712,6 +2784,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_he.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_he-min.js",
@@ -2721,6 +2794,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_hr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_hr-min.js",
@@ -2730,6 +2804,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_hu.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_hu-min.js",
@@ -2739,6 +2814,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_it.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_it-min.js",
@@ -2748,6 +2824,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ja.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ja-min.js",
@@ -2757,6 +2834,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_kk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_kk-min.js",
@@ -2766,6 +2844,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ko.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ko-min.js",
@@ -2775,6 +2854,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_nb.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_nb-min.js",
@@ -2784,6 +2864,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_nl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_nl-min.js",
@@ -2793,6 +2874,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_pl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_pl-min.js",
@@ -2802,6 +2884,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_pt.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_pt-min.js",
@@ -2811,6 +2894,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_pt_pt.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_pt_pt-min.js",
@@ -2820,6 +2904,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ro.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ro-min.js",
@@ -2829,6 +2914,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_ru.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_ru-min.js",
@@ -2838,6 +2924,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_sk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_sk-min.js",
@@ -2847,6 +2934,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_sl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_sl-min.js",
@@ -2856,6 +2944,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_sv.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_sv-min.js",
@@ -2865,6 +2954,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_th.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_th-min.js",
@@ -2874,6 +2964,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_tr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_tr-min.js",
@@ -2883,6 +2974,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_uk.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_uk-min.js",
@@ -2892,6 +2984,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_zh.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_zh-min.js",
@@ -2901,6 +2994,7 @@
 		},
 	"\/assets\/textboxio\/resources\/i18n\/tbio_zh_tw.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/i18n\/tbio_zh_tw-min.js",
@@ -2910,6 +3004,7 @@
 		},
 	"\/assets\/textboxio\/resources\/js\/codeview.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/js\/codeview-min.js",
@@ -2919,6 +3014,7 @@
 		},
 	"\/assets\/textboxio\/resources\/js\/wordimport.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/resources\/js\/wordimport-min.js",
@@ -2928,6 +3024,7 @@
 		},
 	"\/assets\/textboxio\/textboxio.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/textboxio\/textboxio-min.js",
@@ -2936,148 +3033,171 @@
 		"tS": 0
 		},
 	"\/comments.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/front-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/inc\/cpts.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/cpts.php",
 		"oF": 0
 		},
 	"\/inc\/custom-header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/custom-header.php",
 		"oF": 0
 		},
 	"\/inc\/customizer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/customizer.php",
 		"oF": 0
 		},
 	"\/inc\/extras.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/extras.php",
 		"oF": 0
 		},
 	"\/inc\/jetpack.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/template-tags.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/languages\/bristles.pot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/bristles.pot",
 		"oF": 0
 		},
 	"\/languages\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/readme.txt",
 		"oF": 0
 		},
 	"\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
 	"\/page-admin-view.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-admin-view.php",
 		"oF": 0
 		},
 	"\/page-messages.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-messages.php",
 		"oF": 0
 		},
 	"\/page-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-profile.php",
 		"oF": 0
 		},
 	"\/page-programme.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-programme.php",
 		"oF": 0
 		},
 	"\/page-recent.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-recent.php",
 		"oF": 0
 		},
 	"\/page-settings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-settings.php",
 		"oF": 0
 		},
 	"\/page-user.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-user.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3092,6 +3212,7 @@
 		"uCM": 0
 		},
 	"\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/readme.txt",
@@ -3119,24 +3240,28 @@
 		"q": 100
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-pb_charts.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single-pb_charts.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single.php",
@@ -3153,126 +3278,147 @@
 		"oS": 0
 		},
 	"\/style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
 	"\/template-parts\/content-admin-view.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-admin-view.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-contact.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-contact.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-home.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-messages.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-messages.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-none.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-page.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-post.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-post.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-profile.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-programme.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-programme.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-programmes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-programmes.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-recent.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-recent.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-search.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-settings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-settings.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-signup.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-signup.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-single-recent.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-single-recent.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-user-profile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-user-profile.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
 		"oF": 0
 		},
 	"\/template-parts\/partials\/partial-badges.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/partials\/partial-badges.php",
 		"oF": 0
 		},
 	"\/template-parts\/partials\/partial-side-alt.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/partials\/partial-side-alt.php",
 		"oF": 0
 		},
 	"\/template-parts\/partials\/partial-side.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/partials\/partial-side.php",
@@ -3691,6 +3837,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3698,6 +3848,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -3795,6 +3949,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -3811,9 +3969,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -3838,6 +4004,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -3871,9 +4041,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -3903,6 +4073,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -3912,14 +4086,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3942,6 +4108,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4487,6 +4657,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4555,6 +4729,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4594,6 +4772,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -5007,7 +5189,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -5040,6 +5223,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5081,7 +5265,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -5113,13 +5298,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5128,7 +5313,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5148,7 +5334,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -5176,7 +5363,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -5227,6 +5415,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
